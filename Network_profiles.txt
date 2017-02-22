@@ -1,0 +1,37 @@
+﻿MyPC 480p HTTP
+#Cell Phone
+#Parking Lot
+#Door ROI
+
+#2.監視器的影像串流網址
+#康博IP Cam1
+#rtsp://192.168.1.8:554/medias1
+#康博IP Cam2
+#rtsp://192.168.1.14:554/medias1
+#威聚IP Cam1
+#http://192.168.1.4:1143/videostream.cgi?user=admin&pwd=ciis5016&.mjpg
+#威聚IP Cam2
+http://192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg
+#中山影片檔
+#../../Video/CIIS_usingPhone/00065.MTS
+#../../Video/CIIS_usingPhone/00066.MTS
+#../../Video/CIIS_usingPhone/00067.MTS
+#../../Video/CIIS_usingPhone/MVI_0623.MOV
+#../../Video/停車場車輛進出片段/停車場1/車輛離開/CarOut4.mp4
+#ASE影片檔
+#../../Video/ASE_K7_5F.wmv
+#../../Video/ASE_5F.mp4
+#../../Video/K7-5F.3gp
+#notcaught.mp4
+
+
+####### 1920 X 1080 Sample Video ###########
+#../SampleVideo/Bridge_4_timelapse.mp4
+#../SampleVideo/test.divx
+
+#3.顯示端的IP位址
+192.168.1.30
+#192.168.1.24
+
+#4.顯示端的Port(6661~6669)
+6662

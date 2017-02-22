@@ -1,0 +1,828 @@
+﻿-- logger module started --
+core debug: VLC media player - 2.2.1 Terry Pratchett (Weatherwax)
+core debug: Copyright © 1996-2015 the VideoLAN team
+core debug: revision 2.2.1-0-ga425c42
+core debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--disable-debug' 'host_alias=i686-w64-mingw32'
+core debug: using interface module "logger"
+core debug: creating audio output
+core debug: looking for audio output module matching "any": 6 candidates
+directsound debug: found 3 devices
+core debug: using audio output module "directsound"
+core debug: keeping audio output
+core debug: Creating an input for 'http://192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg'
+core debug: using timeshift granularity of 50 MiB, in path 'C:\Users\ANDYU_~1\AppData\Local\Temp'
+core debug: `http://192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg' gives access `http' demux `' path `192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg'
+core debug: specified demux `any'
+core debug: creating demux: access='http' demux='any' location='192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg' file='\\192.168.1.12:8230\videostream.cgi?user=admin&pwd=ciis5016&.mjpg'
+core debug: looking for access_demux module matching "http": 12 candidates
+core debug: no access_demux modules matched
+core debug: creating access 'http' location='192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg', path='\\192.168.1.12:8230\videostream.cgi?user=admin&pwd=ciis5016&.mjpg'
+core debug: looking for access module matching "http": 21 candidates
+http debug: querying proxy for http://192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg
+http debug: no proxy
+http debug: http: server='192.168.1.12' port=8230 file='/videostream.cgi?user=admin&pwd=ciis5016&.mjpg'
+core debug: net: connecting to 192.168.1.12 port 8230
+core debug: connection succeeded (socket = 1092)
+http debug: protocol 'HTTP' answer code 200
+http debug: Server: GoAhead-Webs
+http debug: Connection: close
+http debug: Content-Type: multipart/x-mixed-replace;boundary=object-ipcamera
+core debug: using access module "http"
+core debug: Using stream method for AStream*
+core debug: starting pre-buffering
+core debug: received first data after 0 ms
+core debug: pre-buffering done 1024 bytes in 0s - 1000000 KiB/s
+core debug: looking for stream_filter module matching "any": 6 candidates
+core debug: no stream_filter modules matched
+core debug: looking for stream_filter module matching "record": 6 candidates
+core debug: using stream_filter module "record"
+core debug: creating demux: access='http' demux='any' location='192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg' file='\\192.168.1.12:8230\videostream.cgi?user=admin&pwd=ciis5016&.mjpg'
+core debug: looking for demux module matching "any": 66 candidates
+ts debug: TS module discarded (lost sync)
+mod debug: MOD validation failed (ext=mjpg)
+mjpeg debug: discard MIME header: Content-Length:31936
+core debug: selecting program id=0
+core debug: using demux module "mjpeg"
+core debug: looking for decoder module matching "any": 43 candidates
+avcodec debug: CPU flags: 0x0107d3db
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 4 thread(s) for decoding
+avcodec debug: avcodec codec (Motion JPEG Video) started
+core debug: using decoder module "avcodec"
+core debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\andyu_000\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in C:\vlc-2.2.1\lua\meta\reader
+lua debug: Trying Lua playlist script C:\vlc-2.2.1\lua\meta\reader\filename.luac
+core debug: no meta reader modules matched
+core debug: `http://192.168.1.12:8230/videostream.cgi?user=admin&pwd=ciis5016&.mjpg' successfully opened
+mjpeg debug: MIME boundary not found in 15360 bytes of data
+mjpeg debug: MIME boundary not found in 20480 bytes of data
+mjpeg debug: MIME boundary not found in 25600 bytes of data
+mjpeg debug: MIME boundary not found in 30720 bytes of data
+core debug: Buffering 0%
+mjpeg debug: discard MIME header: Content-Length:31936
+core debug: Buffering 0%
+mjpeg debug: discard MIME header: Content-Length:31936
+core debug: Buffering 0%
+mjpeg debug: discard MIME header: Content-Lengctho:319r36e
+ debug: looking for text renderer module matchcioreng debug:  B"uany":ffe ring2  0c%a
+ndidates
+mjpeg debug: discard MIME header: Content-Length:31936
+core debug: Buffering 0%
+freetype debug: Using Arial as font from file C:\Windows\Fonts\ariali.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\courbi.ttf
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+core debug: looking for video filter2 module mamtchingj p"ega dnyebug": : di58sca crd MIME haenaddiedra:t eCso
+ntent-Length:31936
+core debug: Buffering 0%
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: looking for video filter2 module matching "any": 58 candidates
+yuvp debug: YUVP to YUVA converter
+core debug: using video filter2 module "yuvp"
+core debug: Deinterlacing available
+core debug: deinterlace 0, mode blend, is_needed 0
+core debug: Opening vout display wrapper
+mjpeg debug: dicores debucg: alrood king for vout display MmIMEodule matching "v mheeader:m "Con: te11 candidant-tLenesgt
+h:31992
+corceore  debug: VdoebuugtDisplayEvent 'ful:l scrBeen' u0f
+fering 1%core deb
+ug: VoutDisplayEvent 'resize' 640x480 window
+core debug: using vout display module "vmem"
+core debug: A filter to adapt decoder to display is needed
+core debug: looking for video filter2 module matching "any": 58 candidates
+swscale debug: 640x480 (640x480) chroma: J422 -> 640x480 (640x480) chroma: RV24 with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: Filter 'Swscale' (05859594) appended to chain
+core debug: original format sz 640x480, of (0,0), vsz 640x480, 4cc J422, sar 1:1, msk r0x0 g0x0 b0x0
+core errorco: rFailed to change zoom
+e debug: removcingore  error: mFodulea i"led to set on top
+freetype"
+core error: Failed to change source AR
+core debug: looking for text renderer module matching "any": 2 candidates
+freetype debug: Using Arial as font from file C:\Windows\Fonts\ariali.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\courbi.ttf
+mjpeg debug: discard MIME header: Content-Length:31992
+freetype debug: using fontsize: core2 
+debug: Buffering 1%
+core debug: using text renderer module "freetype"
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+mjpeg debug: discard MIME header: Content-Length:31992
+core debug: Buffering 2%
+core debug: End of video preroll
+core debug: Received first picture
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31992
+core debug: Buffering 2%
+mjpeg debug: discard MIME header: Content-Length:31992
+core debug: Buffering 3%
+mjpeg debug: discard MIME header: Content-Length:31992
+core debug: Buffering 4%
+mjpeg debug: discard MIME header: Content-Length:31992
+core debug: Buffering 5%
+mjpeg debug: discard MIME header: Content-Length:31953
+core debug: Buffering 8%
+mjpeg debug: discard MIME header: Content-Length:29572
+core debug: Buffering 12%
+mjpeg debug: discard MIME header: Content-Length:29573
+core debug: Buffering 16%
+mjpeg debug: discard MIME header: Content-Length:32012
+core debug: Buffering 21%
+mjpeg debug: discard MIME header: Content-Length:31945
+core debug: Buffering 24%
+mjpeg debug: discard MIME header: Content-Length:31945
+core debug: Buffering 29%
+mjpeg debug: discard MIME header: Content-Length:32032
+core debug: Buffering 33%
+mjpeg debug: discard MIME header: Content-Length:29572
+core debug: Buffering 37%
+mjpeg debug: discard MIME header: Content-Length:29564
+core debug: Buffering 41%
+mjpeg debug: discard MIME header: Content-Length:31972
+core debug: Buffering 45%
+mjpeg debug: discard MIME header: Content-Length:31988
+core debug: Buffering 50%
+mjpeg debug: discard MIME header: Content-Length:32048
+core debug: Buffering 54%
+mjpeg debug: discard MIME header: Content-Length:31904
+core debug: Buffering 57%
+mjpeg debug: discard MIME header: Content-Length:29501
+core debug: Buffering 62%
+mjpeg debug: discard MIME header: Content-Length:29480
+core debug: Buffering 66%
+mjpeg debug: discard MIME header: Content-Length:32072
+core debug: Buffering 71%
+mjpeg debug: discard MIME header: Content-Length:31873
+core debug: Buffering 74%
+mjpeg debug: discard MIME header: Content-Length:29548
+core debug: Buffering 79%
+mjpeg debug: discard MIME header: Content-Length:29549
+core debug: Buffering 83%
+mjpeg debug: discard MIME header: Content-Length:32000
+core debug: Buffering 87%
+mjpeg debug: discard MIME header: Content-Length:32052
+core debug: Buffering 91%
+mjpeg debug: discard MIME header: Content-Length:29492
+core debug: Buffering 95%
+mjpeg debug: discard MIME header: Content-Length:29632
+core debug: Stream buffering done (1002 ms in 1002 ms)
+core debug: Decoder wait done in 0 ms
+avcodec warning: cannot decode one frame (2 bytes)
+core debug: picture might be displayed late (missing 12 ms)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpecgo debrueg:  discawarningrd MIME header: :C ontent-Length:3p1icture9 is too lat9e3 
+to be displayed (missing 27 ms)
+avcodec warning: cannot decode one frame (2 bytes)
+core warning: picture is too late to be displayed (missing 42 ms)
+avcodec warning: cannot decode one frame (2 bytes)
+core warning: picture is too late to be displayed (missing 50 ms)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32056
+core warning: picture is too late to be displayed (missing 59 ms)
+mjpeg debug: discard MIME header: Content-Length:29693
+mjpeg debug: discard MIME header: Content-Length:29516
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31968
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32004
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29556
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31961
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32000
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32004
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29572
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29565
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31909
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32061
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31972
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29536
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29504
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31956
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31997
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32072
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31957
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29544
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29588
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32053
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31976
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29577
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31965
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32064
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29576
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29473
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32096
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31936
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32008
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29492
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31985
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29589
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31893
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31928
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32012
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31976
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29465
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29492
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31948
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32024
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32021
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31909
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29545
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32048
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29504
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29516
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32040
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31984
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31884
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29516
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29468
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32008
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32044
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31972
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32016
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29460
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29500
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31996
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31985
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31989
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29464
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29524
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32124
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32000
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31989
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32000
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29508
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29536
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32001
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29548
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29548
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31940
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31880
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32037
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32000
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29597
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29604
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31989
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29560
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29521
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31960
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31981
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32040
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31972
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29600
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29561
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32056
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31944
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29504
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31944
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29536
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29632
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32044
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32008
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29484
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29657
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31993
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31968
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29636
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29581
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32108
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32120
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32032
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31996
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29672
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29573
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32052
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31904
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29568
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29573
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32040
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32021
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29548
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29548
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32012
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31969
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29600
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29565
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32037
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32108
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29684
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32004
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32017
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31997
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31973
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29581
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29553
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31925
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31965
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32096
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31996
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29608
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29637
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31972
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32017
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29600
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29616
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32116
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32037
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32120
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32064
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29589
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29653
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31920
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31908
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29560
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29577
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32072
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32124
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29561
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32072
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32001
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29656
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29596
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32088
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29761
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29696
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31929
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32084
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29616
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29636
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32120
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29636
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29548
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32096
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32053
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32068
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32089
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29620
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29629
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32044
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29645
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29608
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32100
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32016
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29616
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29649
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31996
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32140
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32065
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31960
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29629
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29608
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32124
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32040
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29560
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29692
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32072
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32048
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29653
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31933
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32052
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29580
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29640
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32072
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32056
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31904
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29664
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29612
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32116
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31965
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32028
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32016
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31912
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32020
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29552
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29532
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32016
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31936
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32040
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32000
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29568
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29525
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31944
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32057
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29625
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29585
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32020
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31993
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29580
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29628
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32052
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31928
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32020
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31948
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29560
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32068
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31969
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29660
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29572
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32020
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31972
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29605
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29580
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32048
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32036
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29517
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29540
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32100
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32136
+mjpeg debug: discard MIME header: Content-Length:29572
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29597
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31989
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32008
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29576
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29624
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31981
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32000
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31980
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29588
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29589
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31988
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31977
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32056
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31957
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29600
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29501
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32008
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32044
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29576
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29576
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32009
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32037
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29577
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29616
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31952
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31937
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32040
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31965
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29592
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29509
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32032
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31956
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29560
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29584
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:32092
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31936
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29500
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29620
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:31968
+mjpeg debug: discard MIME header: Content-Length:32008
+avcodec warning: cannot decode one frame (2 bytes)
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29524
+avcodec warning: cannot decode one frame (2 bytes)
+mjpeg debug: discard MIME header: Content-Length:29521
+avcodec warning: cannot decode one frame (2 bytes)

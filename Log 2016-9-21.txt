@@ -1,0 +1,10 @@
+2016/9/21 10:49:34  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/21 10:49:36  Test  [Processing] 連線至顯示端中...
+2016/9/21 10:49:36  Test  [Processing] 成功連線至顯示端
+2016/9/21 10:49:37  Test  [Processing] 開始處理監視器影像串流
+2016/9/21 10:49:37  Test  [Processing] 監視器IP:,Port:0
+2016/9/21 11:33:24  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/21 11:33:25  Test  [Processing] 連線至顯示端中...
+2016/9/21 11:33:25  Test  [Processing] 成功連線至顯示端
+2016/9/21 11:33:26  Test  [Processing] 開始處理監視器影像串流
+2016/9/21 11:33:26  Test  [Processing] 監視器IP:,Port:0

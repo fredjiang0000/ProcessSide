@@ -1,0 +1,66 @@
+2015/8/13 18:5:43   [Capture] Thread Start
+2015/8/13 18:5:43   [Process] Thread Start
+2015/8/13 18:5:43   [Process] 顯示端斷線!
+2015/8/13 18:5:43   [Process] 成功連線至顯示端
+2015/8/13 18:5:43   [Capture] FPS:0 push [25] frames into queue
+2015/8/13 18:5:43   [Capture] FPS:430 push [50] frames into queue
+2015/8/13 18:5:43   [Capture] FPS:442 push [75] frames into queue
+2015/8/13 18:5:44   [Capture] FPS:437 push [100] frames into queue
+2015/8/13 18:5:46   [Process] FPS:0 Grab [25] frames from queue
+2015/8/13 18:5:46   [Capture] FPS:437 push [125] frames into queue
+2015/8/13 18:5:46   [Capture] 監視器斷線!
+2015/8/13 18:5:46   [Process] 監視器暫停處理影像串流
+2015/8/13 18:5:49   [Capture] 監視器斷線!
+2015/8/13 18:5:52   [Capture] 監視器斷線!
+2015/8/13 18:5:55   [Capture] 監視器斷線!
+2015/8/13 18:5:58   [Capture] 監視器斷線!
+2015/8/13 18:6:1   [Capture] 監視器斷線!
+2015/8/13 18:6:4   [Capture] 監視器斷線!
+2015/8/13 18:6:45   [Capture] Thread Start
+2015/8/13 18:6:45   [Process] Thread Start
+2015/8/13 18:6:45   [Process] 顯示端斷線!
+2015/8/13 18:6:45   [Process] 成功連線至顯示端
+2015/8/13 18:6:45   [Capture] FPS:0 push [25] frames into queue
+2015/8/13 18:6:45   [Capture] FPS:383 push [50] frames into queue
+2015/8/13 18:6:45   [Capture] FPS:421 push [75] frames into queue
+2015/8/13 18:6:45   [Capture] FPS:421 push [100] frames into queue
+2015/8/13 18:6:48   [Capture] FPS:421 push [125] frames into queue
+2015/8/13 18:6:48   [Process] FPS:0 Grab [25] frames from queue
+2015/8/13 18:6:50   [Process] FPS:19 Grab [50] frames from queue
+2015/8/13 18:6:50   [Capture] FPS:119 push [150] frames into queue
+2015/8/13 18:6:53   [Process] FPS:20 Grab [75] frames from queue
+2015/8/13 18:6:53   [Capture] FPS:20 push [175] frames into queue
+2015/8/13 18:6:56   [Process] FPS:18 Grab [100] frames from queue
+2015/8/13 18:6:56   [Capture] FPS:18 push [200] frames into queue
+2015/8/13 18:6:59   [Process] FPS:18 Grab [125] frames from queue
+2015/8/13 18:6:59   [Capture] FPS:19 push [225] frames into queue
+2015/8/13 18:7:2   [Process] FPS:20 Grab [150] frames from queue
+2015/8/13 18:7:2   [Capture] FPS:19 push [250] frames into queue
+2015/8/13 18:7:5   [Process] FPS:16 Grab [175] frames from queue
+2015/8/13 18:7:5   [Capture] FPS:17 push [275] frames into queue
+2015/8/13 18:7:8   [Process] FPS:17 Grab [200] frames from queue
+2015/8/13 18:7:8   [Capture] FPS:16 push [300] frames into queue
+2015/8/13 18:7:11   [Process] FPS:17 Grab [225] frames from queue
+2015/8/13 18:7:11   [Capture] FPS:19 push [325] frames into queue
+2015/8/13 18:7:14   [Process] FPS:19 Grab [250] frames from queue
+2015/8/13 18:7:14   [Capture] FPS:19 push [350] frames into queue
+2015/8/13 18:7:17   [Process] FPS:18 Grab [275] frames from queue
+2015/8/13 18:7:17   [Capture] FPS:17 push [375] frames into queue
+2015/8/13 18:7:20   [Process] FPS:16 Grab [300] frames from queue
+2015/8/13 18:7:20   [Capture] FPS:18 push [400] frames into queue
+2015/8/13 18:7:23   [Process] FPS:20 Grab [325] frames from queue
+2015/8/13 18:7:23   [Capture] FPS:18 push [425] frames into queue
+2015/8/13 18:7:26   [Process] FPS:20 Grab [350] frames from queue
+2015/8/13 18:7:26   [Capture] FPS:18 push [450] frames into queue
+2015/8/13 18:7:30   [Process] FPS:17 Grab [375] frames from queue
+2015/8/13 18:7:30   [Capture] FPS:18 push [475] frames into queue
+2015/8/13 18:7:33   [Process] FPS:15 Grab [400] frames from queue
+2015/8/13 18:7:33   [Capture] FPS:14 push [500] frames into queue
+2015/8/13 18:7:36   [Process] FPS:16 Grab [425] frames from queue
+2015/8/13 18:7:36   [Capture] FPS:16 push [525] frames into queue
+2015/8/13 18:7:39   [Process] FPS:19 Grab [450] frames from queue
+2015/8/13 18:7:39   [Capture] FPS:18 push [550] frames into queue
+2015/8/13 18:7:42   [Process] FPS:19 Grab [475] frames from queue
+2015/8/13 18:7:42   [Capture] FPS:18 push [575] frames into queue
+2015/8/13 18:7:45   [Process] FPS:17 Grab [500] frames from queue
+2015/8/13 18:7:45   [Capture] FPS:17 push [600] frames into queue

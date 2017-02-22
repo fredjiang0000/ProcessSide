@@ -1,0 +1,12 @@
+2016/8/10 16:10:54  Test  [Processing] 監視器原始解析度:640X480 FPS:30
+2016/8/10 16:11:3  Test  [Processing] 連線至顯示端中...
+2016/8/10 16:11:3  Test  [Processing] 成功連線至顯示端
+2016/8/10 16:11:3  Test  [Capture] 開始抓取監視器影像串流
+2016/8/10 16:11:4  Test  [Processing] 開始處理監視器影像串流
+2016/8/10 16:11:4  Test  [Processing] 監視器IP:,Port:131089
+2016/8/10 21:30:45  Test  [Processing] 監視器原始解析度:640X480 FPS:30
+2016/8/10 21:30:54  Test  [Processing] 連線至顯示端中...
+2016/8/10 21:30:54  Test  [Processing] 成功連線至顯示端
+2016/8/10 21:30:54  Test  [Capture] 開始抓取監視器影像串流
+2016/8/10 21:30:55  Test  [Processing] 開始處理監視器影像串流
+2016/8/10 21:30:55  Test  [Processing] 監視器IP:,Port:101318788

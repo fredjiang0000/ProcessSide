@@ -1,0 +1,6 @@
+2016/1/13 13:52:15  Cell Phone  [Processing] 監視器原始解析度:1600X1200 FPS:54
+2016/1/13 13:52:19  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/13 13:52:19  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/13 13:52:19  Cell Phone  [Capture] 開始抓取監視器影像串流
+2016/1/13 13:52:20  Cell Phone  [Processing] 開始處理監視器影像串流
+2016/1/13 13:52:20  Cell Phone  [Processing] 監視器IP:192.168.1.9,Port:554

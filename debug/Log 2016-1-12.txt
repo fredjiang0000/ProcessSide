@@ -1,0 +1,54 @@
+2016/1/12 17:20:7  Cell Phone  [Processing] 監視器原始解析度:1600X1200 FPS:30
+2016/1/12 17:20:11  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 17:20:11  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 17:20:11  Cell Phone  [Capture] 開始抓取監視器影像串流
+2016/1/12 17:20:12  Cell Phone  [Processing] 開始處理監視器影像串流
+2016/1/12 17:20:12  Cell Phone  [Processing] 監視器IP:192.168.1.9,Port:554
+2016/1/12 18:22:20  Cell Phone  [Processing] 監視器原始解析度:1600X1200 FPS:30
+2016/1/12 18:22:23  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 18:22:23  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 18:22:23  Cell Phone  [Capture] 開始抓取監視器影像串流
+2016/1/12 18:22:24  Cell Phone  [Processing] 開始處理監視器影像串流
+2016/1/12 18:22:24  Cell Phone  [Processing] 監視器IP:192.168.1.9,Port:554
+2016/1/12 19:7:44  Cell Phone  [Processing] Processing Thread quits!(Break the loop)
+2016/1/12 19:7:44  Cell Phone  [Capture] Capture Thread quits!(Break the loop)
+2016/1/12 19:7:47  Cell Phone  [Processing] 監視器原始解析度:1600X1200 FPS:30
+2016/1/12 19:7:51  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 19:7:51  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 19:7:51  Cell Phone  [Capture] 開始抓取監視器影像串流
+2016/1/12 19:7:51  Cell Phone  [Processing] Destructure Processing Thread!
+2016/1/12 19:7:52  Cell Phone  [Processing] 開始處理監視器影像串流
+2016/1/12 19:7:52  Cell Phone  [Processing] 監視器IP:192.168.1.9,Port:554
+2016/1/12 22:28:2  Cell Phone  [Processing] 監視器原始解析度:1600X1200 FPS:30
+2016/1/12 22:28:6  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:28:6  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:28:6  Cell Phone  [Capture] 開始抓取監視器影像串流
+2016/1/12 22:28:7  Cell Phone  [Processing] 開始處理監視器影像串流
+2016/1/12 22:28:7  Cell Phone  [Processing] 監視器IP:192.168.1.9,Port:554
+2016/1/12 22:28:30  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:28:30  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:28:32  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:28:53  Cell Phone  [Processing] 連線至顯示端失敗!L
+2016/1/12 22:28:54  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:28:54  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:29:2  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:29:2  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:29:3  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:29:12  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:30:33  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:30:54  Cell Phone  [Processing] 連線至顯示端失敗!L
+2016/1/12 22:30:55  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:31:16  Cell Phone  [Processing] 連線至顯示端失敗!L
+2016/1/12 22:31:17  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:31:26  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:31:32  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:31:53  Cell Phone  [Processing] 連線至顯示端失敗!L
+2016/1/12 22:31:54  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:32:15  Cell Phone  [Processing] 連線至顯示端失敗!L
+2016/1/12 22:32:16  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:32:56  Cell Phone  [Processing] 監視器原始解析度:1600X1200 FPS:30
+2016/1/12 22:32:59  Cell Phone  [Processing] 連線至顯示端中...
+2016/1/12 22:32:59  Cell Phone  [Processing] 成功連線至顯示端
+2016/1/12 22:32:59  Cell Phone  [Capture] 開始抓取監視器影像串流
+2016/1/12 22:33:0  Cell Phone  [Processing] 開始處理監視器影像串流
+2016/1/12 22:33:0  Cell Phone  [Processing] 監視器IP:192.168.1.9,Port:554

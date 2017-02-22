@@ -1,0 +1,810 @@
+﻿
+2015/8/21 17:11:8  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/21 17:11:8  ciis5016  [Process] 成功連線至顯示端
+2015/8/21 17:11:11  ciis5016  [Capture] Thread Start
+2015/8/21 17:11:11  ciis5016  [Process] Thread Start
+2015/8/21 17:51:27  ciis5016  [Process] Receive bytes：-1
+2015/8/21 17:51:27  ciis5016  [Process] 顯示端斷線!
+2015/8/21 17:51:27  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/21 17:51:48  ciis5016  [Process] 連線至顯示端失敗!
+2015/8/21 17:51:48  ciis5016  [Process] 監視器暫停處理影像串流
+2015/8/22 18:48:4  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/22 18:48:4  ciis5016  [Process] 成功連線至顯示端
+2015/8/22 18:48:6  ciis5016  [Capture] Thread Start
+2015/8/22 18:48:6  ciis5016  [Process] Thread Start
+2015/8/22 18:49:15  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/22 18:49:15  ciis5016  [Process] 成功連線至顯示端
+2015/8/22 18:49:17  ciis5016  [Capture] Thread Start
+2015/8/22 18:49:17  ciis5016  [Process] Thread Start
+2015/8/22 18:50:43  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/22 18:50:43  ciis5016  [Process] 成功連線至顯示端
+2015/8/22 18:50:45  ciis5016  [Capture] Thread Start
+2015/8/22 18:50:45  ciis5016  [Process] Thread Start
+2015/8/22 18:50:52  ciis5016  [Process] Receive bytes：-1
+2015/8/22 18:50:52  ciis5016  [Process] 顯示端斷線!
+2015/8/22 18:50:52  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/22 18:51:10  ciis5016  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/22 18:51:10  ciis5016  [Process] 成功連線至顯示端
+2015/8/22 18:51:12  ciis5016  [Capture] Thread Start
+2015/8/22 18:51:12  ciis5016  [Process] Thread Start
+2015/8/28 18:49:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:49:4  CIIS5016(IP Camera 1)  [Process] 成功連線至顯示端
+2015/8/28 18:49:5  CIIS5016(IP Camera 1)  [Capture] Thread Start
+2015/8/28 18:49:5  CIIS5016(IP Camera 1)  [Process] Thread Start
+2015/8/28 18:49:6  CIIS5016(IP Camera 1)  [Capture] 監視器抓取不到影像串流!
+2015/8/28 18:49:6  CIIS5016(IP Camera 1)  [Capture] 重新開啟監視器影像串流...
+2015/8/28 18:49:8  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:49:8  CIIS5016(IP Camera 1)  [Process] 成功連線至顯示端
+2015/8/28 18:49:9  CIIS5016(IP Camera 1)  [Process] Send 30th frame
+2015/8/28 18:49:11  CIIS5016(IP Camera 1)  [Process] Send 60th frame
+2015/8/28 18:49:13  CIIS5016(IP Camera 1)  [Process] Send 90th frame
+2015/8/28 18:49:15  CIIS5016(IP Camera 1)  [Process] Send 120th frame
+2015/8/28 18:49:17  CIIS5016(IP Camera 1)  [Process] Send 150th frame
+2015/8/28 18:49:19  CIIS5016(IP Camera 1)  [Process] Send 180th frame
+2015/8/28 18:49:21  CIIS5016(IP Camera 1)  [Process] Send 210th frame
+2015/8/28 18:49:23  CIIS5016(IP Camera 1)  [Process] Send 240th frame
+2015/8/28 18:49:25  CIIS5016(IP Camera 1)  [Process] Send 270th frame
+2015/8/28 18:49:27  CIIS5016(IP Camera 1)  [Process] Send 300th frame
+2015/8/28 18:49:29  CIIS5016(IP Camera 1)  [Process] Send 330th frame
+2015/8/28 18:49:31  CIIS5016(IP Camera 1)  [Process] Send 360th frame
+2015/8/28 18:49:34  CIIS5016(IP Camera 1)  [Process] Send 390th frame
+2015/8/28 18:49:35  CIIS5016(IP Camera 1)  [Process] Send 420th frame
+2015/8/28 18:49:37  CIIS5016(IP Camera 1)  [Process] Send 450th frame
+2015/8/28 18:49:40  CIIS5016(IP Camera 1)  [Process] Send 480th frame
+2015/8/28 18:49:42  CIIS5016(IP Camera 1)  [Process] Send 510th frame
+2015/8/28 18:49:44  CIIS5016(IP Camera 1)  [Process] Send 540th frame
+2015/8/28 18:49:46  CIIS5016(IP Camera 1)  [Process] Send 570th frame
+2015/8/28 18:49:48  CIIS5016(IP Camera 1)  [Process] Send 600th frame
+2015/8/28 18:49:50  CIIS5016(IP Camera 1)  [Process] Send 630th frame
+2015/8/28 18:49:52  CIIS5016(IP Camera 1)  [Process] Send 660th frame
+2015/8/28 18:49:54  CIIS5016(IP Camera 1)  [Process] Send 690th frame
+2015/8/28 18:49:56  CIIS5016(IP Camera 1)  [Process] Send 720th frame
+2015/8/28 18:49:58  CIIS5016(IP Camera 1)  [Process] Send 750th frame
+2015/8/28 18:50:0  CIIS5016(IP Camera 1)  [Process] Send 780th frame
+2015/8/28 18:50:2  CIIS5016(IP Camera 1)  [Process] Send 810th frame
+2015/8/28 18:50:4  CIIS5016(IP Camera 1)  [Process] Send 840th frame
+2015/8/28 18:50:6  CIIS5016(IP Camera 1)  [Process] Send 870th frame
+2015/8/28 18:50:8  CIIS5016(IP Camera 1)  [Process] Send 900th frame
+2015/8/28 18:50:10  CIIS5016(IP Camera 1)  [Process] Send 930th frame
+2015/8/28 18:50:12  CIIS5016(IP Camera 1)  [Process] Send 960th frame
+2015/8/28 18:50:14  CIIS5016(IP Camera 1)  [Process] Send 990th frame
+2015/8/28 18:50:16  CIIS5016(IP Camera 1)  [Process] Send 1020th frame
+2015/8/28 18:50:18  CIIS5016(IP Camera 1)  [Process] Send 1050th frame
+2015/8/28 18:50:20  CIIS5016(IP Camera 1)  [Process] Send 1080th frame
+2015/8/28 18:50:22  CIIS5016(IP Camera 1)  [Process] Send 1110th frame
+2015/8/28 18:50:24  CIIS5016(IP Camera 1)  [Process] Send 1140th frame
+2015/8/28 18:50:26  CIIS5016(IP Camera 1)  [Process] Send 1170th frame
+2015/8/28 18:50:28  CIIS5016(IP Camera 1)  [Process] Send 1200th frame
+2015/8/28 18:50:30  CIIS5016(IP Camera 1)  [Process] Send 1230th frame
+2015/8/28 18:50:32  CIIS5016(IP Camera 1)  [Process] Send 1260th frame
+2015/8/28 18:50:34  CIIS5016(IP Camera 1)  [Process] Send 1290th frame
+2015/8/28 18:50:36  CIIS5016(IP Camera 1)  [Process] Send 1320th frame
+2015/8/28 18:50:38  CIIS5016(IP Camera 1)  [Process] Send 1350th frame
+2015/8/28 18:50:40  CIIS5016(IP Camera 1)  [Process] Send 1380th frame
+2015/8/28 18:50:42  CIIS5016(IP Camera 1)  [Process] Send 1410th frame
+2015/8/28 18:50:44  CIIS5016(IP Camera 1)  [Process] Send 1440th frame
+2015/8/28 18:50:46  CIIS5016(IP Camera 1)  [Process] Send 1470th frame
+2015/8/28 18:50:48  CIIS5016(IP Camera 1)  [Process] Send 1500th frame
+2015/8/28 18:50:50  CIIS5016(IP Camera 1)  [Process] Send 1530th frame
+2015/8/28 18:50:52  CIIS5016(IP Camera 1)  [Process] Send 1560th frame
+2015/8/28 18:50:54  CIIS5016(IP Camera 1)  [Process] Send 1590th frame
+2015/8/28 18:50:56  CIIS5016(IP Camera 1)  [Process] Send 1620th frame
+2015/8/28 18:50:58  CIIS5016(IP Camera 1)  [Process] Send 1650th frame
+2015/8/28 18:51:0  CIIS5016(IP Camera 1)  [Process] Send 1680th frame
+2015/8/28 18:51:2  CIIS5016(IP Camera 1)  [Process] Send 1710th frame
+2015/8/28 18:51:4  CIIS5016(IP Camera 1)  [Process] Send 1740th frame
+2015/8/28 18:51:6  CIIS5016(IP Camera 1)  [Process] Send 1770th frame
+2015/8/28 18:51:8  CIIS5016(IP Camera 1)  [Process] Send 1800th frame
+2015/8/28 18:51:10  CIIS5016(IP Camera 1)  [Process] Send 1830th frame
+2015/8/28 18:51:12  CIIS5016(IP Camera 1)  [Process] Send 1860th frame
+2015/8/28 18:51:14  CIIS5016(IP Camera 1)  [Process] Send 1890th frame
+2015/8/28 18:51:16  CIIS5016(IP Camera 1)  [Process] Send 1920th frame
+2015/8/28 18:51:18  CIIS5016(IP Camera 1)  [Process] Send 1950th frame
+2015/8/28 18:51:20  CIIS5016(IP Camera 1)  [Process] Send 1980th frame
+2015/8/28 18:51:22  CIIS5016(IP Camera 1)  [Process] Send 2010th frame
+2015/8/28 18:51:24  CIIS5016(IP Camera 1)  [Process] Send 2040th frame
+2015/8/28 18:51:26  CIIS5016(IP Camera 1)  [Process] Send 2070th frame
+2015/8/28 18:51:28  CIIS5016(IP Camera 1)  [Process] Send 2100th frame
+2015/8/28 18:51:30  CIIS5016(IP Camera 1)  [Process] Send 2130th frame
+2015/8/28 18:51:32  CIIS5016(IP Camera 1)  [Process] Send 2160th frame
+2015/8/28 18:51:34  CIIS5016(IP Camera 1)  [Process] Send 2190th frame
+2015/8/28 18:51:36  CIIS5016(IP Camera 1)  [Process] Send 2220th frame
+2015/8/28 18:51:38  CIIS5016(IP Camera 1)  [Process] Send 2250th frame
+2015/8/28 18:51:40  CIIS5016(IP Camera 1)  [Process] Send 2280th frame
+2015/8/28 18:51:42  CIIS5016(IP Camera 1)  [Process] Send 2310th frame
+2015/8/28 18:51:44  CIIS5016(IP Camera 1)  [Process] Send 2340th frame
+2015/8/28 18:51:46  CIIS5016(IP Camera 1)  [Process] Send 2370th frame
+2015/8/28 18:51:48  CIIS5016(IP Camera 1)  [Process] Send 2400th frame
+2015/8/28 18:51:50  CIIS5016(IP Camera 1)  [Process] Send 2430th frame
+2015/8/28 18:51:52  CIIS5016(IP Camera 1)  [Process] Send 2460th frame
+2015/8/28 18:51:54  CIIS5016(IP Camera 1)  [Process] Send 2490th frame
+2015/8/28 18:51:56  CIIS5016(IP Camera 1)  [Process] Send 2520th frame
+2015/8/28 18:51:58  CIIS5016(IP Camera 1)  [Process] Send 2550th frame
+2015/8/28 18:52:0  CIIS5016(IP Camera 1)  [Process] Send 2580th frame
+2015/8/28 18:52:2  CIIS5016(IP Camera 1)  [Process] Send 2610th frame
+2015/8/28 18:52:4  CIIS5016(IP Camera 1)  [Process] Send 2640th frame
+2015/8/28 18:52:6  CIIS5016(IP Camera 1)  [Process] Send 2670th frame
+2015/8/28 18:52:8  CIIS5016(IP Camera 1)  [Process] Send 2700th frame
+2015/8/28 18:52:10  CIIS5016(IP Camera 1)  [Process] Send 2730th frame
+2015/8/28 18:52:12  CIIS5016(IP Camera 1)  [Process] Send 2760th frame
+2015/8/28 18:52:14  CIIS5016(IP Camera 1)  [Process] Send 2790th frame
+2015/8/28 18:52:16  CIIS5016(IP Camera 1)  [Process] Send 2820th frame
+2015/8/28 18:52:18  CIIS5016(IP Camera 1)  [Process] Send 2850th frame
+2015/8/28 18:52:20  CIIS5016(IP Camera 1)  [Process] Send 2880th frame
+2015/8/28 18:52:22  CIIS5016(IP Camera 1)  [Process] Send 2910th frame
+2015/8/28 18:52:24  CIIS5016(IP Camera 1)  [Process] Send 2940th frame
+2015/8/28 18:52:26  CIIS5016(IP Camera 1)  [Process] Send 2970th frame
+2015/8/28 18:52:28  CIIS5016(IP Camera 1)  [Process] Send 3000th frame
+2015/8/28 18:52:30  CIIS5016(IP Camera 1)  [Process] Send 3030th frame
+2015/8/28 18:52:32  CIIS5016(IP Camera 1)  [Process] Send 3060th frame
+2015/8/28 18:52:34  CIIS5016(IP Camera 1)  [Process] Send 3090th frame
+2015/8/28 18:52:36  CIIS5016(IP Camera 1)  [Process] Send 3120th frame
+2015/8/28 18:52:38  CIIS5016(IP Camera 1)  [Process] Send 3150th frame
+2015/8/28 18:52:40  CIIS5016(IP Camera 1)  [Process] Send 3180th frame
+2015/8/28 18:52:42  CIIS5016(IP Camera 1)  [Process] Send 3210th frame
+2015/8/28 18:52:44  CIIS5016(IP Camera 1)  [Process] Send 3240th frame
+2015/8/28 18:52:46  CIIS5016(IP Camera 1)  [Process] Send bytes：-1
+2015/8/28 18:52:46  CIIS5016(IP Camera 1)  [Process] 顯示端斷線!
+2015/8/28 18:52:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:52:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗!
+2015/8/28 18:52:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:52:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗!
+2015/8/28 18:52:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:52:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗!
+2015/8/28 18:52:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:52:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗!
+2015/8/28 18:52:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:52:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗!
+2015/8/28 18:52:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/8/28 18:52:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗!
+2015/8/28 18:52:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:21:5  CIIS5016(IP Camera 1)  [Capture] Thread Start
+2015/9/4 18:21:5  CIIS5016(IP Camera 1)  [Process] Thread Start
+2015/9/4 18:21:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:21:5  CIIS5016(IP Camera 1)  [Process] 成功連線至顯示端
+2015/9/4 18:21:6  CIIS5016(IP Camera 1)  [Process] Send 30th frame
+2015/9/4 18:21:7  CIIS5016(IP Camera 1)  [Process] Send 60th frame
+2015/9/4 18:21:9  CIIS5016(IP Camera 1)  [Process] Send 90th frame
+2015/9/4 18:21:10  CIIS5016(IP Camera 1)  [Process] Send 120th frame
+2015/9/4 18:21:12  CIIS5016(IP Camera 1)  [Process] Send 150th frame
+2015/9/4 18:21:13  CIIS5016(IP Camera 1)  [Process] Send 180th frame
+2015/9/4 18:21:15  CIIS5016(IP Camera 1)  [Process] Send 210th frame
+2015/9/4 18:21:16  CIIS5016(IP Camera 1)  [Process] Send 240th frame
+2015/9/4 18:21:18  CIIS5016(IP Camera 1)  [Process] Send 270th frame
+2015/9/4 18:21:19  CIIS5016(IP Camera 1)  [Process] Send 300th frame
+2015/9/4 18:21:20  CIIS5016(IP Camera 1)  [Process] Send 330th frame
+2015/9/4 18:21:22  CIIS5016(IP Camera 1)  [Process] Send 360th frame
+2015/9/4 18:21:23  CIIS5016(IP Camera 1)  [Process] Send 390th frame
+2015/9/4 18:21:25  CIIS5016(IP Camera 1)  [Process] Send 420th frame
+2015/9/4 18:21:26  CIIS5016(IP Camera 1)  [Process] Send 450th frame
+2015/9/4 18:21:27  CIIS5016(IP Camera 1)  [Process] Send 480th frame
+2015/9/4 18:21:29  CIIS5016(IP Camera 1)  [Process] Send 510th frame
+2015/9/4 18:21:31  CIIS5016(IP Camera 1)  [Process] Send 540th frame
+2015/9/4 18:21:32  CIIS5016(IP Camera 1)  [Process] Send 570th frame
+2015/9/4 18:21:33  CIIS5016(IP Camera 1)  [Process] Send 600th frame
+2015/9/4 18:21:35  CIIS5016(IP Camera 1)  [Process] Send 630th frame
+2015/9/4 18:21:36  CIIS5016(IP Camera 1)  [Process] Send 660th frame
+2015/9/4 18:21:38  CIIS5016(IP Camera 1)  [Process] Send 690th frame
+2015/9/4 18:21:39  CIIS5016(IP Camera 1)  [Process] Send 720th frame
+2015/9/4 18:21:41  CIIS5016(IP Camera 1)  [Process] Send 750th frame
+2015/9/4 18:21:42  CIIS5016(IP Camera 1)  [Process] Send 780th frame
+2015/9/4 18:21:44  CIIS5016(IP Camera 1)  [Process] Send 810th frame
+2015/9/4 18:21:45  CIIS5016(IP Camera 1)  [Process] Send 840th frame
+2015/9/4 18:21:47  CIIS5016(IP Camera 1)  [Process] Send 870th frame
+2015/9/4 18:21:48  CIIS5016(IP Camera 1)  [Process] Send 900th frame
+2015/9/4 18:21:50  CIIS5016(IP Camera 1)  [Process] Send 930th frame
+2015/9/4 18:21:51  CIIS5016(IP Camera 1)  [Process] Send 960th frame
+2015/9/4 18:21:53  CIIS5016(IP Camera 1)  [Process] Send 990th frame
+2015/9/4 18:21:54  CIIS5016(IP Camera 1)  [Process] Send 1020th frame
+2015/9/4 18:21:55  CIIS5016(IP Camera 1)  [Process] Send 1050th frame
+2015/9/4 18:21:57  CIIS5016(IP Camera 1)  [Process] Send 1080th frame
+2015/9/4 18:21:58  CIIS5016(IP Camera 1)  [Process] Send 1110th frame
+2015/9/4 18:22:0  CIIS5016(IP Camera 1)  [Process] Send 1140th frame
+2015/9/4 18:22:1  CIIS5016(IP Camera 1)  [Process] Send 1170th frame
+2015/9/4 18:22:2  CIIS5016(IP Camera 1)  [Process] Send 1200th frame
+2015/9/4 18:22:4  CIIS5016(IP Camera 1)  [Process] Send 1230th frame
+2015/9/4 18:22:5  CIIS5016(IP Camera 1)  [Process] Send 1260th frame
+2015/9/4 18:22:7  CIIS5016(IP Camera 1)  [Process] Send 1290th frame
+2015/9/4 18:22:8  CIIS5016(IP Camera 1)  [Process] Send 1320th frame
+2015/9/4 18:22:9  CIIS5016(IP Camera 1)  [Process] Send 1350th frame
+2015/9/4 18:22:11  CIIS5016(IP Camera 1)  [Process] Send 1380th frame
+2015/9/4 18:22:12  CIIS5016(IP Camera 1)  [Process] Send 1410th frame
+2015/9/4 18:22:13  CIIS5016(IP Camera 1)  [Process] Send 1440th frame
+2015/9/4 18:22:15  CIIS5016(IP Camera 1)  [Process] Send 1470th frame
+2015/9/4 18:22:16  CIIS5016(IP Camera 1)  [Process] Send 1500th frame
+2015/9/4 18:22:18  CIIS5016(IP Camera 1)  [Process] Send 1530th frame
+2015/9/4 18:22:19  CIIS5016(IP Camera 1)  [Process] Send 1560th frame
+2015/9/4 18:22:21  CIIS5016(IP Camera 1)  [Process] Send 1590th frame
+2015/9/4 18:22:22  CIIS5016(IP Camera 1)  [Process] Send 1620th frame
+2015/9/4 18:22:24  CIIS5016(IP Camera 1)  [Process] Send 1650th frame
+2015/9/4 18:22:25  CIIS5016(IP Camera 1)  [Process] Send 1680th frame
+2015/9/4 18:22:27  CIIS5016(IP Camera 1)  [Process] Send 1710th frame
+2015/9/4 18:22:28  CIIS5016(IP Camera 1)  [Process] Send 1740th frame
+2015/9/4 18:22:30  CIIS5016(IP Camera 1)  [Process] Send 1770th frame
+2015/9/4 18:22:31  CIIS5016(IP Camera 1)  [Process] Send 1800th frame
+2015/9/4 18:22:32  CIIS5016(IP Camera 1)  [Process] Send 1830th frame
+2015/9/4 18:22:34  CIIS5016(IP Camera 1)  [Process] Send 1860th frame
+2015/9/4 18:22:35  CIIS5016(IP Camera 1)  [Process] Send 1890th frame
+2015/9/4 18:22:37  CIIS5016(IP Camera 1)  [Process] Send 1920th frame
+2015/9/4 18:22:38  CIIS5016(IP Camera 1)  [Process] Send 1950th frame
+2015/9/4 18:22:39  CIIS5016(IP Camera 1)  [Process] Send 1980th frame
+2015/9/4 18:22:41  CIIS5016(IP Camera 1)  [Process] Send 2010th frame
+2015/9/4 18:22:42  CIIS5016(IP Camera 1)  [Process] Send 2040th frame
+2015/9/4 18:22:44  CIIS5016(IP Camera 1)  [Process] Send 2070th frame
+2015/9/4 18:22:45  CIIS5016(IP Camera 1)  [Process] Send 2100th frame
+2015/9/4 18:22:46  CIIS5016(IP Camera 1)  [Process] Send 2130th frame
+2015/9/4 18:22:48  CIIS5016(IP Camera 1)  [Process] Send 2160th frame
+2015/9/4 18:22:49  CIIS5016(IP Camera 1)  [Process] Send 2190th frame
+2015/9/4 18:22:51  CIIS5016(IP Camera 1)  [Process] Send 2220th frame
+2015/9/4 18:22:52  CIIS5016(IP Camera 1)  [Process] Send 2250th frame
+2015/9/4 18:22:54  CIIS5016(IP Camera 1)  [Process] Send 2280th frame
+2015/9/4 18:22:55  CIIS5016(IP Camera 1)  [Process] Send 2310th frame
+2015/9/4 18:22:57  CIIS5016(IP Camera 1)  [Process] Send 2340th frame
+2015/9/4 18:22:59  CIIS5016(IP Camera 1)  [Process] Send 2370th frame
+2015/9/4 18:23:0  CIIS5016(IP Camera 1)  [Process] Send 2400th frame
+2015/9/4 18:23:2  CIIS5016(IP Camera 1)  [Process] Send 2430th frame
+2015/9/4 18:23:3  CIIS5016(IP Camera 1)  [Process] Send 2460th frame
+2015/9/4 18:23:5  CIIS5016(IP Camera 1)  [Process] Send 2490th frame
+2015/9/4 18:23:6  CIIS5016(IP Camera 1)  [Process] Send 2520th frame
+2015/9/4 18:23:7  CIIS5016(IP Camera 1)  [Process] Send 2550th frame
+2015/9/4 18:23:9  CIIS5016(IP Camera 1)  [Process] Send 2580th frame
+2015/9/4 18:23:10  CIIS5016(IP Camera 1)  [Process] Send 2610th frame
+2015/9/4 18:23:12  CIIS5016(IP Camera 1)  [Process] Send 2640th frame
+2015/9/4 18:23:13  CIIS5016(IP Camera 1)  [Process] Send 2670th frame
+2015/9/4 18:23:14  CIIS5016(IP Camera 1)  [Process] Send 2700th frame
+2015/9/4 18:23:16  CIIS5016(IP Camera 1)  [Process] Send 2730th frame
+2015/9/4 18:23:17  CIIS5016(IP Camera 1)  [Process] Send 2760th frame
+2015/9/4 18:23:19  CIIS5016(IP Camera 1)  [Process] Send 2790th frame
+2015/9/4 18:23:20  CIIS5016(IP Camera 1)  [Process] Send 2820th frame
+2015/9/4 18:23:22  CIIS5016(IP Camera 1)  [Process] Send 2850th frame
+2015/9/4 18:23:23  CIIS5016(IP Camera 1)  [Process] Send 2880th frame
+2015/9/4 18:23:24  CIIS5016(IP Camera 1)  [Process] Send 2910th frame
+2015/9/4 18:23:26  CIIS5016(IP Camera 1)  [Process] Send 2940th frame
+2015/9/4 18:23:27  CIIS5016(IP Camera 1)  [Process] Send 2970th frame
+2015/9/4 18:23:29  CIIS5016(IP Camera 1)  [Process] Send 3000th frame
+2015/9/4 18:23:30  CIIS5016(IP Camera 1)  [Process] Send 3030th frame
+2015/9/4 18:23:32  CIIS5016(IP Camera 1)  [Process] Send 3060th frame
+2015/9/4 18:23:33  CIIS5016(IP Camera 1)  [Process] Send 3090th frame
+2015/9/4 18:23:35  CIIS5016(IP Camera 1)  [Process] Send 3120th frame
+2015/9/4 18:23:36  CIIS5016(IP Camera 1)  [Process] Send 3150th frame
+2015/9/4 18:23:38  CIIS5016(IP Camera 1)  [Process] Send 3180th frame
+2015/9/4 18:23:39  CIIS5016(IP Camera 1)  [Process] Send 3210th frame
+2015/9/4 18:23:41  CIIS5016(IP Camera 1)  [Process] Send 3240th frame
+2015/9/4 18:23:42  CIIS5016(IP Camera 1)  [Process] Send 3270th frame
+2015/9/4 18:23:44  CIIS5016(IP Camera 1)  [Process] Send 3300th frame
+2015/9/4 18:23:45  CIIS5016(IP Camera 1)  [Process] Send 3330th frame
+2015/9/4 18:23:47  CIIS5016(IP Camera 1)  [Process] Send 3360th frame
+2015/9/4 18:23:48  CIIS5016(IP Camera 1)  [Process] Send 3390th frame
+2015/9/4 18:23:49  CIIS5016(IP Camera 1)  [Process] Send 3420th frame
+2015/9/4 18:23:51  CIIS5016(IP Camera 1)  [Process] Send 3450th frame
+2015/9/4 18:23:52  CIIS5016(IP Camera 1)  [Process] Send 3480th frame
+2015/9/4 18:23:54  CIIS5016(IP Camera 1)  [Process] Send 3510th frame
+2015/9/4 18:23:55  CIIS5016(IP Camera 1)  [Process] Send 3540th frame
+2015/9/4 18:23:56  CIIS5016(IP Camera 1)  [Process] Send 3570th frame
+2015/9/4 18:23:58  CIIS5016(IP Camera 1)  [Process] Send 3600th frame
+2015/9/4 18:23:59  CIIS5016(IP Camera 1)  [Process] Send 3630th frame
+2015/9/4 18:24:1  CIIS5016(IP Camera 1)  [Process] Send 3660th frame
+2015/9/4 18:24:2  CIIS5016(IP Camera 1)  [Process] Send 3690th frame
+2015/9/4 18:24:4  CIIS5016(IP Camera 1)  [Process] Send 3720th frame
+2015/9/4 18:24:5  CIIS5016(IP Camera 1)  [Process] Send 3750th frame
+2015/9/4 18:24:6  CIIS5016(IP Camera 1)  [Process] Send 3780th frame
+2015/9/4 18:24:8  CIIS5016(IP Camera 1)  [Process] Send 3810th frame
+2015/9/4 18:24:9  CIIS5016(IP Camera 1)  [Process] Send 3840th frame
+2015/9/4 18:24:11  CIIS5016(IP Camera 1)  [Process] Send 3870th frame
+2015/9/4 18:24:13  CIIS5016(IP Camera 1)  [Process] Send 3900th frame
+2015/9/4 18:24:14  CIIS5016(IP Camera 1)  [Process] Send 3930th frame
+2015/9/4 18:24:16  CIIS5016(IP Camera 1)  [Process] Send 3960th frame
+2015/9/4 18:24:17  CIIS5016(IP Camera 1)  [Process] Send 3990th frame
+2015/9/4 18:24:18  CIIS5016(IP Camera 1)  [Process] Send 4020th frame
+2015/9/4 18:24:20  CIIS5016(IP Camera 1)  [Process] Send 4050th frame
+2015/9/4 18:24:21  CIIS5016(IP Camera 1)  [Process] Send 4080th frame
+2015/9/4 18:24:23  CIIS5016(IP Camera 1)  [Process] Send 4110th frame
+2015/9/4 18:24:24  CIIS5016(IP Camera 1)  [Process] Send 4140th frame
+2015/9/4 18:24:25  CIIS5016(IP Camera 1)  [Process] Send 4170th frame
+2015/9/4 18:24:27  CIIS5016(IP Camera 1)  [Process] Send 4200th frame
+2015/9/4 18:24:28  CIIS5016(IP Camera 1)  [Process] Send 4230th frame
+2015/9/4 18:24:30  CIIS5016(IP Camera 1)  [Process] Send 4260th frame
+2015/9/4 18:24:31  CIIS5016(IP Camera 1)  [Process] Send 4290th frame
+2015/9/4 18:24:32  CIIS5016(IP Camera 1)  [Process] Send 4320th frame
+2015/9/4 18:24:34  CIIS5016(IP Camera 1)  [Process] Send 4350th frame
+2015/9/4 18:24:35  CIIS5016(IP Camera 1)  [Process] Send 4380th frame
+2015/9/4 18:24:37  CIIS5016(IP Camera 1)  [Process] Send 4410th frame
+2015/9/4 18:24:38  CIIS5016(IP Camera 1)  [Process] Send 4440th frame
+2015/9/4 18:24:39  CIIS5016(IP Camera 1)  [Process] Send 4470th frame
+2015/9/4 18:24:41  CIIS5016(IP Camera 1)  [Process] Send 4500th frame
+2015/9/4 18:24:42  CIIS5016(IP Camera 1)  [Process] Send 4530th frame
+2015/9/4 18:24:44  CIIS5016(IP Camera 1)  [Process] Send 4560th frame
+2015/9/4 18:24:45  CIIS5016(IP Camera 1)  [Process] Send 4590th frame
+2015/9/4 18:24:47  CIIS5016(IP Camera 1)  [Process] Send 4620th frame
+2015/9/4 18:24:48  CIIS5016(IP Camera 1)  [Process] Send 4650th frame
+2015/9/4 18:24:50  CIIS5016(IP Camera 1)  [Process] Send 4680th frame
+2015/9/4 18:24:51  CIIS5016(IP Camera 1)  [Process] Send 4710th frame
+2015/9/4 18:24:53  CIIS5016(IP Camera 1)  [Process] Send 4740th frame
+2015/9/4 18:24:55  CIIS5016(IP Camera 1)  [Process] Send 4770th frame
+2015/9/4 18:24:56  CIIS5016(IP Camera 1)  [Process] Send 4800th frame
+2015/9/4 18:24:57  CIIS5016(IP Camera 1)  [Process] Send 4830th frame
+2015/9/4 18:24:59  CIIS5016(IP Camera 1)  [Process] Send 4860th frame
+2015/9/4 18:25:1  CIIS5016(IP Camera 1)  [Process] Send 4890th frame
+2015/9/4 18:25:2  CIIS5016(IP Camera 1)  [Process] Send 4920th frame
+2015/9/4 18:25:3  CIIS5016(IP Camera 1)  [Process] Send 4950th frame
+2015/9/4 18:25:5  CIIS5016(IP Camera 1)  [Process] Send 4980th frame
+2015/9/4 18:25:6  CIIS5016(IP Camera 1)  [Process] Send 5010th frame
+2015/9/4 18:25:8  CIIS5016(IP Camera 1)  [Process] Send 5040th frame
+2015/9/4 18:25:9  CIIS5016(IP Camera 1)  [Process] Send 5070th frame
+2015/9/4 18:25:10  CIIS5016(IP Camera 1)  [Process] Send 5100th frame
+2015/9/4 18:25:12  CIIS5016(IP Camera 1)  [Process] Send 5130th frame
+2015/9/4 18:25:13  CIIS5016(IP Camera 1)  [Process] Send 5160th frame
+2015/9/4 18:25:15  CIIS5016(IP Camera 1)  [Process] Send 5190th frame
+2015/9/4 18:25:16  CIIS5016(IP Camera 1)  [Process] Send 5220th frame
+2015/9/4 18:25:17  CIIS5016(IP Camera 1)  [Process] Send 5250th frame
+2015/9/4 18:25:19  CIIS5016(IP Camera 1)  [Process] Send 5280th frame
+2015/9/4 18:25:20  CIIS5016(IP Camera 1)  [Process] Send 5310th frame
+2015/9/4 18:25:22  CIIS5016(IP Camera 1)  [Process] Send 5340th frame
+2015/9/4 18:25:23  CIIS5016(IP Camera 1)  [Process] Send 5370th frame
+2015/9/4 18:25:24  CIIS5016(IP Camera 1)  [Process] Send 5400th frame
+2015/9/4 18:25:26  CIIS5016(IP Camera 1)  [Process] Send 5430th frame
+2015/9/4 18:25:27  CIIS5016(IP Camera 1)  [Process] Send 5460th frame
+2015/9/4 18:25:29  CIIS5016(IP Camera 1)  [Process] Send 5490th frame
+2015/9/4 18:25:30  CIIS5016(IP Camera 1)  [Capture] Thread Start
+2015/9/4 18:25:30  CIIS5016(IP Camera 1)  [Process] Thread Start
+2015/9/4 18:25:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6662)
+2015/9/4 18:25:30  CIIS5016(IP Camera 1)  [Process] 成功連線至顯示端
+2015/9/4 18:25:30  CIIS5016(IP Camera 1)  [Process] Send 5520th frame
+2015/9/4 18:25:30  CIIS5016(IP Camera 1)  [Process] Send 30th frame
+2015/9/4 18:25:31  CIIS5016(IP Camera 1)  [Process] Send 60th frame
+2015/9/4 18:25:32  CIIS5016(IP Camera 1)  [Process] Send 5550th frame
+2015/9/4 18:25:32  CIIS5016(IP Camera 1)  [Process] Send 90th frame
+2015/9/4 18:25:33  CIIS5016(IP Camera 1)  [Process] Send 5580th frame
+2015/9/4 18:25:33  CIIS5016(IP Camera 1)  [Process] Send 120th frame
+2015/9/4 18:25:34  CIIS5016(IP Camera 1)  [Process] Send 150th frame
+2015/9/4 18:25:34  CIIS5016(IP Camera 1)  [Process] Send 5610th frame
+2015/9/4 18:25:35  CIIS5016(IP Camera 1)  [Process] Send 180th frame
+2015/9/4 18:25:36  CIIS5016(IP Camera 1)  [Process] Send 5640th frame
+2015/9/4 18:25:36  CIIS5016(IP Camera 1)  [Process] Send 210th frame
+2015/9/4 18:25:37  CIIS5016(IP Camera 1)  [Process] Send 240th frame
+2015/9/4 18:25:38  CIIS5016(IP Camera 1)  [Process] Send 5670th frame
+2015/9/4 18:25:38  CIIS5016(IP Camera 1)  [Process] Send 270th frame
+2015/9/4 18:25:39  CIIS5016(IP Camera 1)  [Process] Send 5700th frame
+2015/9/4 18:25:39  CIIS5016(IP Camera 1)  [Process] Send 300th frame
+2015/9/4 18:25:40  CIIS5016(IP Camera 1)  [Process] Send 330th frame
+2015/9/4 18:25:40  CIIS5016(IP Camera 1)  [Process] Send 5730th frame
+2015/9/4 18:25:41  CIIS5016(IP Camera 1)  [Process] Send 360th frame
+2015/9/4 18:25:42  CIIS5016(IP Camera 1)  [Process] Send 5760th frame
+2015/9/4 18:25:42  CIIS5016(IP Camera 1)  [Process] Send 390th frame
+2015/9/4 18:25:43  CIIS5016(IP Camera 1)  [Process] Send 5790th frame
+2015/9/4 18:25:43  CIIS5016(IP Camera 1)  [Process] Send 420th frame
+2015/9/4 18:25:44  CIIS5016(IP Camera 1)  [Process] Send 450th frame
+2015/9/4 18:25:45  CIIS5016(IP Camera 1)  [Process] Send 5820th frame
+2015/9/4 18:25:45  CIIS5016(IP Camera 1)  [Process] Send 480th frame
+2015/9/4 18:25:46  CIIS5016(IP Camera 1)  [Process] Send 5850th frame
+2015/9/4 18:25:46  CIIS5016(IP Camera 1)  [Process] Send 510th frame
+2015/9/4 18:25:47  CIIS5016(IP Camera 1)  [Process] Send 5880th frame
+2015/9/4 18:25:47  CIIS5016(IP Camera 1)  [Process] Send 540th frame
+2015/9/4 18:25:48  CIIS5016(IP Camera 1)  [Process] Send 570th frame
+2015/9/4 18:25:49  CIIS5016(IP Camera 1)  [Process] Send 5910th frame
+2015/9/4 18:25:49  CIIS5016(IP Camera 1)  [Process] Send 600th frame
+2015/9/4 18:25:50  CIIS5016(IP Camera 1)  [Process] Send 5940th frame
+2015/9/4 18:25:50  CIIS5016(IP Camera 1)  [Process] Send 630th frame
+2015/9/4 18:25:51  CIIS5016(IP Camera 1)  [Process] Send 5970th frame
+2015/9/4 18:25:52  CIIS5016(IP Camera 1)  [Process] Send 660th frame
+2015/9/4 18:25:53  CIIS5016(IP Camera 1)  [Process] Send 690th frame
+2015/9/4 18:25:53  CIIS5016(IP Camera 1)  [Process] Send 6000th frame
+2015/9/4 18:25:54  CIIS5016(IP Camera 1)  [Process] Send 720th frame
+2015/9/4 18:25:54  CIIS5016(IP Camera 1)  [Process] Send 6030th frame
+2015/9/4 18:25:54  CIIS5016(IP Camera 1)  [Process] Send 750th frame
+2015/9/4 18:25:55  CIIS5016(IP Camera 1)  [Process] Send 780th frame
+2015/9/4 18:25:56  CIIS5016(IP Camera 1)  [Process] Send 6060th frame
+2015/9/4 18:25:57  CIIS5016(IP Camera 1)  [Process] Send 810th frame
+2015/9/4 18:25:57  CIIS5016(IP Camera 1)  [Process] Send 6090th frame
+2015/9/4 18:25:58  CIIS5016(IP Camera 1)  [Process] Send 840th frame
+2015/9/4 18:25:58  CIIS5016(IP Camera 1)  [Process] Send 870th frame
+2015/9/4 18:25:58  CIIS5016(IP Camera 1)  [Process] Send 6120th frame
+2015/9/4 18:25:59  CIIS5016(IP Camera 1)  [Process] Send 900th frame
+2015/9/4 18:26:0  CIIS5016(IP Camera 1)  [Process] Send 6150th frame
+2015/9/4 18:26:0  CIIS5016(IP Camera 1)  [Process] Send 930th frame
+2015/9/4 18:26:1  CIIS5016(IP Camera 1)  [Process] Send 6180th frame
+2015/9/4 18:26:2  CIIS5016(IP Camera 1)  [Process] Send 960th frame
+2015/9/4 18:26:3  CIIS5016(IP Camera 1)  [Process] Send 990th frame
+
+2015/9/4 18:26:4  CIIS5016(IP Camera 1)  [Process] Send 1020th frame
+2015/9/4 18:26:4  CIIS5016(IP Camera 1)  [Process] Send 6240th frame
+2015/9/4 18:26:5  CIIS5016(IP Camera 1)  [Process] Send 1050th frame
+2015/9/4 18:26:5  CIIS5016(IP Camera 1)  [Process] Send 6270th frame
+2015/9/4 18:26:6  CIIS5016(IP Camera 1)  [Process] Send 1080th frame
+2015/9/4 18:26:7  CIIS5016(IP Camera 1)  [Process] Send 1110th frame
+2015/9/4 18:26:7  CIIS5016(IP Camera 1)  [Process] Send 6300th frame
+2015/9/4 18:26:8  CIIS5016(IP Camera 1)  [Process] Send 1140th frame
+2015/9/4 18:26:8  CIIS5016(IP Camera 1)  [Process] Send 6330th frame
+2015/9/4 18:26:9  CIIS5016(IP Camera 1)  [Process] Send 6360th frame
+2015/9/4 18:26:11  CIIS5016(IP Camera 1)  [Process] Send 6390th frame
+2015/9/4 18:26:12  CIIS5016(IP Camera 1)  [Process] Send 6420th frame
+2015/9/4 18:26:14  CIIS5016(IP Camera 1)  [Process] Send 6450th frame
+2015/9/4 18:26:15  CIIS5016(IP Camera 1)  [Process] Send 6480th frame
+2015/9/4 18:26:17  CIIS5016(IP Camera 1)  [Process] Send 6510th frame
+2015/9/4 18:26:19  CIIS5016(IP Camera 1)  [Process] Send 6540th frame
+2015/9/4 18:26:21  CIIS5016(IP Camera 1)  [Process] Send 6570th frame
+2015/9/4 18:26:23  CIIS5016(IP Camera 1)  [Process] Send 6600th frame
+2015/9/4 18:26:25  CIIS5016(IP Camera 1)  [Process] Send 6630th frame
+2015/9/4 18:26:26  CIIS5016(IP Camera 1)  [Process] Send 6660th frame
+2015/9/4 18:26:27  CIIS5016(IP Camera 1)  [Process] Send 6690th frame
+2015/9/4 18:26:29  CIIS5016(IP Camera 1)  [Process] Send 6720th frame
+2015/9/4 18:26:30  CIIS5016(IP Camera 1)  [Process] Send 6750th frame
+2015/9/4 18:26:31  CIIS5016(IP Camera 1)  [Process] Send 6780th frame
+2015/9/4 18:26:33  CIIS5016(IP Camera 1)  [Process] Send 6810th frame
+2015/9/4 18:26:34  CIIS5016(IP Camera 1)  [Process] Send 6840th frame
+2015/9/4 18:26:36  CIIS5016(IP Camera 1)  [Process] Send 6870th frame
+2015/9/4 18:26:37  CIIS5016(IP Camera 1)  [Process] Send 6900th frame
+2015/9/4 18:26:39  CIIS5016(IP Camera 1)  [Process] Send 6930th frame
+2015/9/4 18:26:40  CIIS5016(IP Camera 1)  [Process] Send 6960th frame
+2015/9/4 18:26:41  CIIS5016(IP Camera 1)  [Process] Send 6990th frame
+2015/9/4 18:26:43  CIIS5016(IP Camera 1)  [Process] Send 7020th frame
+2015/9/4 18:26:44  CIIS5016(IP Camera 1)  [Process] Send 7050th frame
+2015/9/4 18:26:46  CIIS5016(IP Camera 1)  [Process] Send 7080th frame
+2015/9/4 18:26:47  CIIS5016(IP Camera 1)  [Process] Send 7110th frame
+2015/9/4 18:26:48  CIIS5016(IP Camera 1)  [Process] Send 7140th frame
+2015/9/4 18:26:50  CIIS5016(IP Camera 1)  [Process] Send 7170th frame
+2015/9/4 18:26:51  CIIS5016(IP Camera 1)  [Process] Send 7200th frame
+2015/9/4 18:26:53  CIIS5016(IP Camera 1)  [Process] Send 7230th frame
+2015/9/4 18:26:54  CIIS5016(IP Camera 1)  [Process] Send 7260th frame
+2015/9/4 18:26:56  CIIS5016(IP Camera 1)  [Process] Send 7290th frame
+2015/9/4 18:26:57  CIIS5016(IP Camera 1)  [Process] Send 7320th frame
+2015/9/4 18:26:59  CIIS5016(IP Camera 1)  [Process] Send 7350th frame
+2015/9/4 18:27:0  CIIS5016(IP Camera 1)  [Process] Send 7380th frame
+2015/9/4 18:27:2  CIIS5016(IP Camera 1)  [Process] Send 7410th frame
+2015/9/4 18:27:3  CIIS5016(IP Camera 1)  [Process] Send 7440th frame
+2015/9/4 18:27:5  CIIS5016(IP Camera 1)  [Process] Send 7470th frame
+2015/9/4 18:27:6  CIIS5016(IP Camera 1)  [Process] Send 7500th frame
+2015/9/4 18:27:8  CIIS5016(IP Camera 1)  [Process] Send 7530th frame
+2015/9/4 18:27:9  CIIS5016(IP Camera 1)  [Process] Send 7560th frame
+2015/9/4 18:27:10  CIIS5016(IP Camera 1)  [Process] Send 7590th frame
+2015/9/4 18:27:12  CIIS5016(IP Camera 1)  [Process] Send 7620th frame
+2015/9/4 18:27:13  CIIS5016(IP Camera 1)  [Process] Send 7650th frame
+2015/9/4 18:27:15  CIIS5016(IP Camera 1)  [Process] Send 7680th frame
+2015/9/4 18:27:16  CIIS5016(IP Camera 1)  [Process] Send 7710th frame
+2015/9/4 18:27:18  CIIS5016(IP Camera 1)  [Process] Send 7740th frame
+2015/9/4 18:27:19  CIIS5016(IP Camera 1)  [Process] Send 7770th frame
+2015/9/4 18:27:20  CIIS5016(IP Camera 1)  [Process] Send 7800th frame
+2015/9/4 18:27:22  CIIS5016(IP Camera 1)  [Process] Send 7830th frame
+2015/9/4 18:27:23  CIIS5016(IP Camera 1)  [Process] Send bytes：-1
+2015/9/4 18:27:23  CIIS5016(IP Camera 1)  [Process] 顯示端斷線!
+2015/9/4 18:27:23  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:24  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:24  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:25  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:25  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:26  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:26  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:27  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:27  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:28  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:28  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:29  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:29  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:31  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:31  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:32  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:32  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:33  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:33  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:34  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:34  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:35  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:35  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:36  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:36  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:37  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:37  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:38  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:38  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:39  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:39  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:40  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:40  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:42  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:42  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:43  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:43  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:44  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:44  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:45  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:45  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:53  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:53  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:54  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:54  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:55  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:55  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:56  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:56  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:57  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:57  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:58  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:58  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:27:59  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:27:59  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:0  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:0  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:1  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:1  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:2  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:2  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:3  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:3  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:6  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:6  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:7  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:7  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:8  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:8  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:9  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:9  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:10  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:10  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:11  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:11  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:12  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:12  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:13  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:13  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:14  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:14  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:15  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:15  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:16  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:16  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:17  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:17  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:18  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:18  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:19  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:19  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:20  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:20  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:21  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:21  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:22  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:22  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:23  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:23  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:24  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:24  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:26  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:26  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:27  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:27  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:28  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:28  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:29  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:29  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:31  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:31  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:32  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:32  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:33  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:33  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:34  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:34  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:35  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:35  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:36  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:36  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:37  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:37  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:38  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:38  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:39  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:39  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:40  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:40  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:41  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:41  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:42  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:42  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:43  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:43  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:44  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:44  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:45  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:45  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:53  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:53  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:54  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:54  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:55  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:55  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:56  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:56  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:57  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:57  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:58  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:58  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:28:59  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:28:59  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:0  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:0  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:1  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:1  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:2  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:2  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:3  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:3  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:7  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:7  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:8  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:8  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:9  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:9  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:10  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:10  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:11  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:11  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:12  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:12  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:13  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:13  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:14  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:14  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:15  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:15  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:16  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:16  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:17  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:17  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:18  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:18  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:19  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:19  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:20  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:20  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:21  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:21  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:22  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:22  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:23  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:23  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:24  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:24  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:25  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:25  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:26  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:26  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:27  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:27  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:28  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:28  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:29  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:29  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:30  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:31  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:31  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:32  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:32  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:33  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:33  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:34  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:34  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:35  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:35  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:36  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:36  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:37  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:37  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:38  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:38  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:39  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:39  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:40  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:40  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:41  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:41  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:42  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:42  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:43  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:43  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:44  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:44  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:45  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:45  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:46  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:47  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:48  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:49  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:50  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:51  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:52  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:53  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:53  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:54  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:54  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:55  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:55  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:56  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:56  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:57  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:57  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:29:59  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:29:59  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:0  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:30:0  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:1  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:30:1  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:2  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:30:2  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:3  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:30:3  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:30:4  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端失敗! 重新連線中...
+2015/9/4 18:30:5  CIIS5016(IP Camera 1)  [Process] 連線至顯示端(192.168.1.10:6661)
+2015/9/4 18:30:5  CIIS5016(IP Camera 1)  [Process] 成功連線至顯示端
+2015/9/4 18:30:5  CIIS5016(IP Camera 1)  [Process] Send 7860th frame
+2015/9/4 18:30:6  CIIS5016(IP Camera 1)  [Process] Send 7890th frame
+2015/9/4 18:30:6  CIIS5016(IP Camera 1)  [Process] Send 7920th frame
+2015/11/25 11:48:8  123123  [Capture] 開始抓取監視器影像串流
+2015/11/25 11:48:8  123123  [Process] 連線至顯示端中...
+2015/11/25 11:48:8  123123  [Process] 成功連線至顯示端
+2015/11/25 11:48:8  123123  [Process] 開始處理監視器影像串流
+2015/11/25 11:48:8  123123  [Process] 監視器IP:192.168.1.15,Port:554
+2015/11/25 11:48:10  123123  [Process] 連線至顯示端中...
+2015/11/25 11:48:10  123123  [Process] 成功連線至顯示端
+2015/11/25 11:48:10  123123  [Capture] 監視器重新連線到顯示端...
+2015/12/11 20:38:13  Cam Test  [Process] 監視器原始解析度:1600X1200 FPS:29
+2015/12/11 20:38:18  Cam Test  [Process] 連線至顯示端中...
+2015/12/11 20:38:18  Cam Test  [Process] 成功連線至顯示端
+2015/12/11 20:38:19  Cam Test  [Process] 開始處理監視器影像串流
+2015/12/11 20:38:19  Cam Test  [Capture] 開始抓取監視器影像串流
+2015/12/11 20:38:19  Cam Test  [Process] 監視器IP:192.168.1.15,Port:554
+2015/12/17 14:25:9  Compro Plz  [Process] 監視器原始解析度:1600X1200 FPS:14
+2015/12/17 14:25:19  Compro Plz  [Process] 連線至顯示端中...
+2015/12/17 14:25:19  Compro Plz  [Process] 成功連線至顯示端
+2015/12/17 14:25:20  Compro Plz  [Capture] 開始抓取監視器影像串流
+2015/12/17 14:25:21  Compro Plz  [Process] 開始處理監視器影像串流
+2015/12/17 14:25:21  Compro Plz  [Process] 監視器IP:192.168.1.15,Port:554

@@ -1,0 +1,65 @@
+2016/8/25 11:23:40  Test  [Processing] 監視器原始解析度:640X480 FPS:30
+2016/8/25 11:23:49  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:23:50  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:23:51  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:23:52  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:23:53  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:23:54  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:23:55  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:23:56  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:23:57  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:23:58  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:23:59  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:24:0  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:24:1  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:24:2  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:24:3  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:24:4  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:24:5  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:24:6  Test  [Processing] 連線至顯示端失敗!M
+2016/8/25 11:24:7  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:25:17  AndyPC Phone  [Processing] 監視器原始解析度:1600X1200 FPS:15
+2016/8/25 11:25:20  AndyPC Phone  [Processing] 連線至顯示端中...
+2016/8/25 11:25:20  AndyPC Phone  [Processing] 成功連線至顯示端
+2016/8/25 11:25:21  AndyPC Phone  [Processing] 開始處理監視器影像串流
+2016/8/25 11:25:21  AndyPC Phone  [Processing] 監視器IP:,Port:0
+2016/8/25 11:27:23  AndyPC Phone  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:27:25  AndyPC Phone  [Processing] 連線至顯示端中...
+2016/8/25 11:27:25  AndyPC Phone  [Processing] 成功連線至顯示端
+2016/8/25 11:27:26  AndyPC Phone  [Processing] 開始處理監視器影像串流
+2016/8/25 11:27:26  AndyPC Phone  [Processing] 監視器IP:,Port:0
+2016/8/25 11:29:12  Test  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:29:13  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:29:13  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:29:14  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:29:14  Test  [Processing] 監視器IP:,Port:0
+2016/8/25 11:30:48  Test  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:30:50  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:30:50  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:30:51  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:30:51  Test  [Processing] 監視器IP:,Port:0
+2016/8/25 11:34:13  Test  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:34:14  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:34:14  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:34:15  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:34:15  Test  [Processing] 監視器IP:,Port:0
+2016/8/25 11:35:46  Test  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:35:47  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:35:47  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:35:48  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:35:48  Test  [Processing] 監視器IP:,Port:0
+2016/8/25 11:41:2  Test  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:41:4  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:41:4  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:41:5  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:41:5  Test  [Processing] 監視器IP:,Port:0
+2016/8/25 11:42:52  Test  [Processing] 監視器原始解析度:1628X908 FPS:30
+2016/8/25 11:42:53  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:42:53  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:42:54  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:42:54  Test  [Processing] 監視器IP:,Port:0
+2016/8/25 11:45:35  Test  [Processing] 監視器原始解析度:1600X1200 FPS:15
+2016/8/25 11:45:37  Test  [Processing] 連線至顯示端中...
+2016/8/25 11:45:37  Test  [Processing] 成功連線至顯示端
+2016/8/25 11:45:38  Test  [Processing] 開始處理監視器影像串流
+2016/8/25 11:45:38  Test  [Processing] 監視器IP:,Port:-1626807361

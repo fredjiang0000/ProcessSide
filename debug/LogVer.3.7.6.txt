@@ -1,0 +1,15 @@
+MyThread created
+this->cam_location:Cell Phone
+Server IP:192.168.1.31 Port:6662
+[This]Server IP:192.168.1.31 Port:6662
+Check Cam's IP...
+This IP is alive
+【Processing Thread initialization】
+rtsp_address:rtsp://192.168.1.9:554/medias1
+videoStreamAddress:rtsp://192.168.1.9:554/medias1
+Video opening successed
+H:1200   W:1600  FPS:54
+CaptureThread created
+CaptureThread 讀取到串流的Frame
+CaptureThread frame_width : 1600
+CaptureThread frame_height : 1200

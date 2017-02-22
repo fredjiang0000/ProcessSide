@@ -1,0 +1,35 @@
+2016/9/13 13:2:38  Test  [Processing] 監視器原始解析度:1600X1200 FPS:18
+2016/9/13 13:2:41  Test  [Processing] 連線至顯示端中...
+2016/9/13 13:2:41  Test  [Processing] 成功連線至顯示端
+2016/9/13 13:2:42  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 13:2:42  Test  [Processing] 監視器IP:,Port:-1921644289
+2016/9/13 14:0:42  Test  [Processing] 監視器原始解析度:1600X1200 FPS:18
+2016/9/13 14:0:44  Test  [Processing] 連線至顯示端中...
+2016/9/13 14:0:44  Test  [Processing] 成功連線至顯示端
+2016/9/13 14:0:45  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 14:0:45  Test  [Processing] 監視器IP:,Port:0
+2016/9/13 14:1:55  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/13 14:1:56  Test  [Processing] 連線至顯示端中...
+2016/9/13 14:1:56  Test  [Processing] 成功連線至顯示端
+2016/9/13 14:1:57  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 14:1:57  Test  [Processing] 監視器IP:,Port:-771455449
+2016/9/13 14:43:5  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/13 14:43:5  Test  [Processing] 連線至顯示端中...
+2016/9/13 14:43:5  Test  [Processing] 成功連線至顯示端
+2016/9/13 14:43:6  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 14:43:6  Test  [Processing] 監視器IP:,Port:0
+2016/9/13 15:14:21  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/13 15:14:22  Test  [Processing] 連線至顯示端中...
+2016/9/13 15:14:22  Test  [Processing] 成功連線至顯示端
+2016/9/13 15:14:23  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 15:14:23  Test  [Processing] 監視器IP:,Port:0
+2016/9/13 15:16:59  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/13 15:17:0  Test  [Processing] 連線至顯示端中...
+2016/9/13 15:17:0  Test  [Processing] 成功連線至顯示端
+2016/9/13 15:17:1  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 15:17:1  Test  [Processing] 監視器IP:,Port:-1173007154
+2016/9/13 15:34:3  Test  [Processing] 監視器原始解析度:1260X744 FPS:30
+2016/9/13 15:34:4  Test  [Processing] 連線至顯示端中...
+2016/9/13 15:34:4  Test  [Processing] 成功連線至顯示端
+2016/9/13 15:34:5  Test  [Processing] 開始處理監視器影像串流
+2016/9/13 15:34:5  Test  [Processing] 監視器IP:,Port:0

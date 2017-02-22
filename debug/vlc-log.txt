@@ -1,0 +1,3185 @@
+﻿-- logger module started --
+core debug: VLC media player - 2.2.1 Terry Pratchett (Weatherwax)
+core debug: Copyright © 1996-2015 the VideoLAN team
+core debug: revision 2.2.1-0-ga425c42
+core debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--disable-debug' 'host_alias=i686-w64-mingw32'
+core debug: using interface module "logger"
+core debug: creating audio output
+core debug: looking for audio output module matching "any": 6 candidates
+directsound debug: found 3 devices
+core debug: using audio output module "directsound"
+core debug: keeping audio output
+core debug: Creating an input for 'rtsp://192.168.1.15:554/medias1'
+core debug: using timeshift granularity of 50 MiB, in path 'C:\Users\CIIS\AppData\Local\Temp'
+core debug: `rtsp://192.168.1.15:554/medias1' gives access `rtsp' demux `' path `192.168.1.15:554/medias1'
+core debug: specified demux `any'
+core debug: creating demux: access='rtsp' demux='any' location='192.168.1.15:554/medias1' file='\\192.168.1.15:554\medias1'
+core debug: looking for access_demux module matching "rtsp": 12 candidates
+live555 debug: version 2014.07.25
+live555 debug: RTP subsession 'video/H264'
+core debug: selecting program id=0
+live555 debug: RTP subsession 'audio/PCMU'
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: spawned timeout thread
+live555 debug: play start: 0.000000 stop:0.000000
+core debug: using access_demux module "live555"
+core debug: looking for decoder module matching "any": 43 candidates
+avcodec debug: CPU flags: 0x0107d3db
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 4 thread(s) for decoding
+avcodec debug: avcodec codec (H264 - MPEG-4 AVC (part 10)) started
+avcodec debug: using frame thread mode with 4 threads
+core debug: using decoder module "avcodec"
+core debug: looking for packetizer module matching "any": 23 candidates
+packetizer_h264 debug: found NAL_SPS (sps_id=0)
+packetizer_h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+core debug: using packetizer module "packetizer_h264"
+core debug: looking for decoder module matching "any": 43 candidates
+g711 debug: samplerate:8000Hz channels:1
+core debug: using decoder module "g711"
+core debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\CIIS\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\vlc-2.2.1\lua\meta\reader
+lua debug: Trying Lua playlist script D:\vlc-2.2.1\lua\meta\reader\filename.luac
+core debug: no meta reader modules matched
+core debug: `rtsp://192.168.1.15:554/medias1' successfully opened
+core debug: Buffering 0%
+core debug: Buffering 3%
+core debug: Buffering c7%
+ore debug: reusing audio output
+directsound debug: Opening DirectSound Audio Output
+core debug: Buffering 7%
+core debug: Buffering 7%
+directsound debug: Windows speaker config: Stereo and stream has 1 channels, using 1 channels
+core debug: output 'f32l' 8000 Hz Stereo frame=1 samples/8 bytes
+core debug: looking for audio volume module matching "any": 2 candidates
+core debug: using audio volume module "float_mixer"
+core debug: input 's16l' 8000 Hz Mono frame=1 samples/2 bytes
+core debug: looking for audio filter module matching "scaletempo": 14 candidates
+scaletempo debug: format:  8000 rate, 1 nch, 4 bps, fl32
+scaletempo debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo debug: 1.000 scale, 240.000 stride_in, 240 stride_out, 192 standing, 48 overlap, 112 search, 400 queue, fl32 mode
+core debug: using audio filter module "scaletempo"
+core debug: conversion: 's16l'->'f32l' 8000 Hz->8000 Hz Mono->Mono
+core debug: looking for audio converter module matching "any": 12 candidates
+audio_format debug: s16l->f32l, bits per sample: 16->32
+core debug: using audio converter module "audio_format"
+core debug: conversion pipeline complete
+core debug: conversion: 'f32l'->'f32l' 8000 Hz->8000 Hz Mono->Stereo
+core debug: looking for audio converter module matching "any": 12 candidates
+core debug: using audio converter module "trivial_channel_mixer"
+core debug: conversion pipeline complete
+core debug: looking for audio resampler module matching "any": 3 candidates
+core debug: using audio resampler module "samplerate"
+core debug: End of audio preroll
+core debug: Buffering 10%
+core debug: Buffering 17%
+core debug: Buffering 24%
+core debug: Buffering 31%
+live555 debug: tk->rtpSource->hasBeenSynchronizedUsingRTCP()
+core error: ES_OUT_RESET_PCR called
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: Buffering 0%
+core debug: Buffering 6%
+core debug: End of audio preroll
+core warning: clock gap, unexpected stream discontinuity
+core warning: feeding synchro with a new reference point trying to recover from clock gap
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 0%
+avcodec debug: available hardware decoder output format 61 (dxva2_vld)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+core debug: looking for hw decoder module matching "none": 1 candidates
+core debug: no hw decoder modules matched
+core debug: Buffering 0%
+core debug: looking for text renderer module matching "any": 2 candidates
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\cour.ttf
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+core debug: looking for video filter2 module matching "any": 58 candidates
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: looking for video filter2 module matching "any": 58 candidates
+yuvp debug: YUVP to YUVA converter
+core debug: using video filter2 module "yuvp"
+core debug: Deinterlacing available
+core debug: deinterlace 0, mode blend, is_needed 0
+core debug: Opening vout display wrapper
+core debug: looking for vout display module matching "vmem": 11 candidates
+core debug: VoutDisplayEvent 'fullscreen' 0
+core debug: VoutDisplayEvent 'resize' 1600x1200 window
+core debug: using vout display module "vmem"
+core debug: A filter to adapt decoder to display is needed
+core debug: looking for video filter2 module matching "any": 58 candidates
+swscale debug: 1600x1200 (1600x1218) chroma: J420 -> 1600x1200 (1600x1200) chroma: RV24 with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: Filter 'Swscale' (1ddfa47c) appended to chain
+core debug: original format sz 1600x1218, of (0,0), vsz 1600x1200, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+core ercroorre:  dFeabiuled gt:o  cremhovinagn mgoedul ez "oforemety
+pe"
+core error: Failed to scoetre  odenb ugtop: 
+looking for ctoreex te rrerndore: rFeailed tor  module matching "achanngey":  2s candidateosur
+ce AR
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\cour.ttf
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+core debug: Buffering 0%
+core debug: Buffering 0%
+avcodec warning: cannot decode one frame (2280 bytes)
+core debug: Buffering 0%
+core debug: End of video preroll
+core debug: Received first picture
+core debug: Buffering 0%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Stream buffering done (1024 ms in 1022 ms)
+core debug: Decoder wait done in 0 ms
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: playback too late (75552): up-sampling
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: playback way too early (-411953): playing silence
+core debug: inserting 3295 zeroes
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: playback too late (102357): up-sampling
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: playback way too late (216039): flushing buffers
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: playback way too early (-1430851): playing silence
+core debug: inserting 11446 zeroes
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: playback too late (98208): up-sampling
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+core warning: early picture skipped
+licvoer555e  dedbeugb:u gtk:->rt pdSoiusrccaer-d>ehasBdee naSyncudhronizediUosin gRTCbP()u
+ffer
+core ecrorroer :d ebEuSg_:O UdisTc_ardedR auEdioS EbTuf_fPerC
+R called
+cocroree de bugdebug: : EBnudff of aeriungd i0o% 
+preroll
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 3%
+core debug: Buffearvicnogd e1c0 %d
+ebug: available hardware decoder output format 61 (dxva2_vld)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+core debug: looking for hw decoder module matching "none": 1 candidates
+core debug: no hw decoder modules matched
+core debug: Buffering 17%
+core debug: Buffering 24%
+core debug: Buffering 31%
+core debug: Buffering 38%
+core debug: End of video preroll
+core debug: Received first picture
+core debug: Buffering 44%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 52%
+core debug: Buffering 59%
+core debug: Buffering 66%
+core debug: Buffering 73%
+core debug: Buffering 79%
+core debug: Buffering 86%
+core debug: Buffering 93%
+core debug: Stream buffering done (1024 ms in 1022 ms)
+core debug: Decoder wait done in 0 ms
+core warning: playback way too early (-195828): playing silence
+core debug: inserting 1566 zeroes
+core debug: picture might be displayed late (missing 5 ms)
+core warning: playback too late (63005): up-sampling
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: resampling stopped (drift: 20521 us)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 38 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 140 ms)
+core warning: picture is too late to be displayed (missing 71 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 2 ms)
+﻿-- logger module started --
+core debug: VLC media player - 2.2.1 Terry Pratchett (Weatherwax)
+core debug: Copyright © 1996-2015 the VideoLAN team
+core debug: revision 2.2.1-0-ga425c42
+core debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--disable-debug' 'host_alias=i686-w64-mingw32'
+core debug: using interface module "logger"
+core debug: creating audio output
+core debug: looking for audio output module matching "any": 6 candidates
+directsound debug: found 3 devices
+core debug: using audio output module "directsound"
+core debug: keeping audio output
+core debug: Creating an input for 'rtsp://192.168.1.15:554/medias1'
+core debug: using timeshift granularity of 50 MiB, in path 'C:\Users\CIIS\AppData\Local\Temp'
+core debug: `rtsp://192.168.1.15:554/medias1' gives access `rtsp' demux `' path `192.168.1.15:554/medias1'
+core debug: specified demux `any'
+core debug: creating demux: access='rtsp' demux='any' location='192.168.1.15:554/medias1' file='\\192.168.1.15:554\medias1'
+core debug: looking for access_demux module matching "rtsp": 12 candidates
+live555 debug: version 2014.07.25
+live555 debug: RTP subsession 'video/H264'
+core debug: selecting program id=0
+live555 debug: RTP subsession 'audio/PCMU'
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: spawned timeout thread
+live555 debug: play start: 0.000000 stop:0.000000
+core debug: using access_demux module "live555"
+core debug: looking for decoder module matching "any": 43 candidates
+avcodec debug: CPU flags: 0x0107d3db
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 4 thread(s) for decoding
+avcodec debug: avcodec codec (H264 - MPEG-4 AVC (part 10)) started
+avcodec debug: using frame thread mode with 4 threads
+core debug: using decoder module "avcodec"
+core debug: looking for packetizer module matching "any": 23 candidates
+packetizer_h264 debug: found NAL_SPS (sps_id=0)
+packetizer_h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+core debug: using packetizer module "packetizer_h264"
+core debug: looking for decoder module matching "any": 43 candidates
+g711 debug: samplerate:8000Hz channels:1
+core debug: using decoder module "g711"
+core debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\CIIS\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\vlc-2.2.1\lua\meta\reader
+lua debug: Trying Lua playlist script D:\vlc-2.2.1\lua\meta\reader\filename.luac
+core debug: no meta reader modules matched
+core debug: `rtsp://192.168.1.15:554/medias1' successfully opened
+core decobrug: eB debug: urffeeusriinngg  0a%u
+dio output
+directsound debug: livOpeninge 5D5ir5ect Sound Adeudio Oubutputg
+: tk->rtpSource->hasBeenSynchronizedUsingRTCP()
+core error: ES_OUT_RESET_PCR called
+directsound debug: Windows speaker config: Stereo and stream has 1 channels, using 1 channels
+core debug: output 'f32l' 8000 Hz Stereo frame=1 samples/8 bytes
+core debug: looking for audio volume module matching "any": 2 candidates
+core debug: using audio volume module "float_mixer"
+core debug: input 's16l' 8000 Hz Mono frame=1 samples/2 bytes
+core debug: looking for audio filter module matching "scaletempo": 14 candidates
+scaletempo debug: format:  8000 rate, 1 nch, 4 bps, fl32
+scaletempo debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo debug: 1.000 scale, 240.000 stride_in, 240 stride_out, 192 standing, 48 overlap, 112 search, 400 queue, fl32 mode
+core debug: using audio filter module "scaletempo"
+core debug: conversion: 's16l'->'f32l' 8000 Hz->8000 Hz Mono->Mono
+core debug: looking for audio converter module matching "any": 12 candidates
+audio_format debug: s16l->f32l, bits per sample: 16->32
+core debug: using audio converter module "audio_format"
+core debug: conversion pipeline complete
+core debug: conversion: 'f32l'->'f32l' 8000 Hz->8000 Hz Mono->Stereo
+core debug: looking for audio converter module matching "any": 12 candidates
+core debug: using audio converter module "trivial_channel_mixer"
+core debug: conversion pipeline complete
+core debug: looking for audio resampler module matching "any": 3 candidates
+core debug: using audio resampler module "samplerate"
+core debug: End of audio preroll
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: End of audio preroll
+live555 debug: tk->rtpSource->hasBeenSynchronizedUsingRTCP()
+core error: ES_OUT_RESET_PCR called
+core error: Could not convert timestamp 0
+core debug: discarded audio buffer
+core error: Could not convert timestamp 0
+core debug: discarded audio buffer
+core debugcore: debug : EBuffering nd of0 %au
+dio preroll
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Stream buffering done (1023 ms in 0 ms)
+core debug: Decoder wait done in 0 ms
+avcodec debug: available hardware decoder output format 61 (dxva2_vld)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+core debug: looking for hw decoder module matching "none": 1 candidates
+core debug: no hw decoder modules matched
+core debug: looking for text renderer module matching "any": 2 candidates
+core warning: buffer too late (-16006047 us): dropped
+core warning: buffer too late (-15878047 us): dropped
+core warning: buffer too late (-15853173 us): dropped
+core warning: buffer too late (-15725173 us): dropped
+core warning: buffer too late (-15673673 us): dropped
+core warning: buffer too late (-15545673 us): dropped
+core warning: buffer too late (-15494173 us): dropped
+core warning: buffer too late (-15366173 us): dropped
+core warning: buffer too late (-15341048 us): dropped
+core warning: buffer too late (-15213048 us): dropped
+core warning: buffer too late (-15161548 us): dropped
+core warning: buffer too late (-15033548 us): dropped
+core warning: buffer too late (-14982048 us): dropped
+core warning: buffer too late (-14854048 us): dropped
+core warning: buffer too late (-14829174 us): dropped
+core warning: buffer too late (-14701174 us): dropped
+core warning: buffer too late (-14649674 us): dropped
+core warning: buffer too late (-14521674 us): dropped
+core warning: buffer too late (-14475174 us): dropped
+core warning: buffer too late (-14347174 us): dropped
+core warning: buffer too late (-14322049 us): dropped
+core warning: buffer too late (-14194049 us): dropped
+core warning: buffer too late (-14142549 us): dropped
+core warning: buffer too late (-14014549 us): dropped
+core warning: buffer too late (-13963049 us): dropped
+core warning: buffer too late (-13835049 us): dropped
+core warning: buffer too late (-13810049 us): dropped
+core warning: buffer too late (-13682049 us): dropped
+core warning: buffer too late (-13630549 us): dropped
+core warning: buffer too late (-13502549 us): dropped
+core warning: buffer too late (-13451049 us): dropped
+core warning: buffer too late (-13323049 us): dropped
+core warning: buffer too late (-13298175 us): dropped
+core warning: buffer too late (-13170175 us): dropped
+core warning: buffer too late (-13118675 us): dropped
+core warning: buffer too late (-12990675 us): dropped
+core warning: buffer too late (-12939175 us): dropped
+core warning: buffer too late (-12811175 us): dropped
+core warning: buffer too late (-12791050 us): dropped
+core warning: buffer too late (-12663050 us): dropped
+core warning: buffer too late (-12611550 us): dropped
+core warning: buffer too late (-12483550 us): dropped
+core warning: buffer too late (-12432050 us): dropped
+core warning: buffer too late (-12304050 us): dropped
+core warning: buffer too late (-12279176 us): dropped
+core warning: buffer too late (-12151176 us): dropped
+core warning: buffer too late (-12099676 us): dropped
+core warning: buffer too late (-11971676 us): dropped
+core warning: buffer too late (-11920176 us): dropped
+core warning: buffer too late (-11792176 us): dropped
+core warning: buffer too late (-11765926 us): dropped
+core warning: buffer too late (-11637926 us): dropped
+core warning: buffer too late (-11586426 us): dropped
+core warning: buffer too late (-11458426 us): dropped
+core warning: buffer too late (-11406926 us): dropped
+core warning: buffer too late (-11278926 us): dropped
+core warning: buffer too late (-11255052 us): dropped
+core warning: buffer too late (-11127052 us): dropped
+core warning: buffer too late (-11075552 us): dropped
+core warning: buffer too late (-10947552 us): dropped
+core warning: buffer too late (-10896052 us): dropped
+core warning: buffer too late (-10768052 us): dropped
+core warning: buffer too late (-10743178 us): dropped
+core warning: buffer too late (-10615178 us): dropped
+core warning: buffer too late (-10563678 us): dropped
+core warning: buffer too late (-10435678 us): dropped
+core warning: buffer too late (-10389178 us): dropped
+core warning: buffer too late (-10261178 us): dropped
+core warning: buffer too late (-10235803 us): dropped
+core warning: buffer too late (-10107803 us): dropped
+core warning: buffer too late (-10056303 us): dropped
+core warning: buffer too late (-9928303 us): dropped
+core warning: buffer too late (-9876803 us): dropped
+core warning: buffer too late (-9748803 us): dropped
+core warning: buffer too late (-9724178 us): dropped
+core warning: buffer too late (-9596178 us): dropped
+core warning: buffer too late (-9544678 us): dropped
+core warning: buffer too late (-9416678 us): dropped
+core warning: buffer too late (-9365178 us): dropped
+core warning: buffer too late (-9237178 us): dropped
+core warning: buffer too late (-9211928 us): dropped
+core warning: buffer too late (-9083928 us): dropped
+core warning: buffer too late (-9032428 us): dropped
+core warning: buffer too late (-8904428 us): dropped
+core warning: buffer too late (-8852928 us): dropped
+core warning: buffer too late (-8724928 us): dropped
+core warning: buffer too late (-8700054 us): dropped
+core warning: buffer too late (-8572054 us): dropped
+core warning: buffer too late (-8520554 us): dropped
+core warning: buffer too late (-8392554 us): dropped
+core warning: buffer too late (-8341054 us): dropped
+core warning: buffer too late (-8213054 us): dropped
+core warning: buffer too late (-8188180 us): dropped
+core warning: buffer too late (-8060180 us): dropped
+core warning: buffer too late (-8008680 us): dropped
+core warning: buffer too late (-7880680 us): dropped
+core warning: buffer too late (-7834180 us): dropped
+core warning: buffer too late (-7706180 us): dropped
+core warning: buffer too late (-7680930 us): dropped
+core warning: buffer too late (-7552930 us): dropped
+core warning: buffer too late (-7501430 us): dropped
+core warning: buffer too late (-7373430 us): dropped
+core warning: buffer too late (-7321930 us): dropped
+core warning: buffer too late (-7193930 us): dropped
+core warning: buffer too late (-7169180 us): dropped
+core warning: buffer too late (-7041180 us): dropped
+core warning: buffer too late (-6989680 us): dropped
+core warning: buffer too late (-6861680 us): dropped
+core warning: buffer too late (-6810180 us): dropped
+core warning: buffer too late (-6682180 us): dropped
+core warning: buffer too late (-6657055 us): dropped
+core warning: buffer too late (-6529055 us): dropped
+core warning: buffer too late (-6135590 us): dropped
+core warning: buffer too late (-6007590 us): dropped
+core warning: buffer too late (-5956090 us): dropped
+core warning: buffer too late (-5828090 us): dropped
+core debug: playback too late (1399966): flushing buffers
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\cour.ttf
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+core debug: looking for video filter2 module matching "any": 58 candidates
+core warning: playback way too early (-485751): playing silence
+core debug: inserting 3886 zeroes
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: looking for video filter2 module matching "any": 58 candidates
+yuvp debug: YUVP to YUVA converter
+core debug: using video filter2 module "yuvp"
+core debug: Deinterlacing available
+core debug: deinterlace 0, mode blend, is_needed 0
+core debug: Opening vout display wrapper
+core debug: looking for vout display module matching "vmem": 11 candidates
+core debug: VoutDisplayEvent 'fullscreen' 0
+core debug: VoutDisplayEvent 'resize' 1600x1200 window
+core debug: using vout display module "vmem"
+core debug: A filter to adapt decoder to display is needed
+core debug: looking for video filter2 module matching "any": 58 candidates
+swscale debug: 1600x1200 (1600x1218) chroma: J420 -> 1600x1200 (1600x1200) chroma: RV24 with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: Filter 'Swscale' (165a2d54) appended to chain
+core debug: original format sz 1600x1218, of (0,0), vsz 1600x1200, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+core errocr: oreFailed to  cdehange zoombug
+: removing modcuolree  error: "Failed to freetset on topy
+pe"
+core error: Failed to change source AR
+core debug: looking for text renderer module matching "any": 2 candidates
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\cour.ttf
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+avcodec warning: cannot decode one frame (4360 bytes)
+core debug: End of video preroll
+core warning: picture is too late to be displayed (missing 29458 ms)
+core warning: picture is too late to be displayed (missing 29392 ms)
+core warning: picture is too late to be displayed (missing 29322 ms)
+core warning: picture is too late to be displayed (missing 29257 ms)
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+avcodec warning: More than 4 late frames, dropping frame
+core debug: control: stopping input
+core debug: removing module "avcodec"
+core warning: can't get output picture
+avcodec debug: ffmpeg codec (H264 - MPEG-4 AVC (part 10)) stopped
+core debug: killing decoder fourcc `h264', 0 PES in FIFO
+core debug: saving a free vout
+core debug: reusing provided vout
+core cored erroer: bFuagi: lreemodving mod utleo  "cpahange zckoeotmi
+zer_h264"
+core error: Failed to change source AR
+core debug: removing module "g711"
+core debug: killing decoder fourcc `mlaw', 0 PES in FIFO
+core debug: removing module "samplerate"
+core debug: removing module "audio_format"
+core debug: removing module "scaletempo"
+core debug: removing module "trivial_channel_mixer"
+directsound debug: closing audio device
+core debug: removing module "float_mixer"
+core debug: keeping audio output
+core debug: removing module "live555"
+core debug: Program doesn't contain anymore ES
+core debug: removing module "directsound"
+core debug: destroying useless vout
+core debug: Filter 165a2d54 removed from chain
+core debug: removing module "swscale"
+core debug: removing module "vmem"
+core debug: removing module "freetype"
+core debug: removing module "yuvp"
+core debug: removing module "swscale"
+core debug: removing all interfaces
+core debug: exiting
+core debug: no exit handler
+core debug: removing module "logger"
+-- logger module stopped --
+﻿-- logger module started --
+core debug: VLC media player - 2.2.1 Terry Pratchett (Weatherwax)
+core debug: Copyright © 1996-2015 the VideoLAN team
+core debug: revision 2.2.1-0-ga425c42
+core debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--disable-debug' 'host_alias=i686-w64-mingw32'
+core debug: using interface module "logger"
+core debug: creating audio output
+core debug: looking for audio output module matching "any": 6 candidates
+directsound debug: found 3 devices
+core debug: using audio output module "directsound"
+core debug: keeping audio output
+core debug: Creating an input for 'rtsp://192.168.1.9:554/medias1'
+core debug: using timeshift granularity of 50 MiB, in path 'C:\Users\CIIS\AppData\Local\Temp'
+core debug: `rtsp://192.168.1.9:554/medias1' gives access `rtsp' demux `' path `192.168.1.9:554/medias1'
+core debug: specified demux `any'
+core debug: creating demux: access='rtsp' demux='any' location='192.168.1.9:554/medias1' file='\\192.168.1.9:554\medias1'
+core debug: looking for access_demux module matching "rtsp": 12 candidates
+live555 debug: version 2014.07.25
+live555 debug: RTP subsession 'video/H264'
+core debug: selecting program id=0
+live555 debug: RTP subsession 'audio/PCMU'
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: spawned timeout thread
+live555 debug: play start: 0.000000 stop:0.000000
+core debug: using access_demux module "live555"
+core debug: looking for decoder module matching "any": 43 candidates
+avcodec debug: CPU flags: 0x0107d3db
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 4 thread(s) for decoding
+avcodec debug: avcodec codec (H264 - MPEG-4 AVC (part 10)) started
+avcodec debug: using frame thread mode with 4 threads
+core debug: using decoder module "avcodec"
+core debug: looking for packetizer module matching "any": 23 candidates
+packetizer_h264 debug: found NAL_SPS (sps_id=0)
+packetizer_h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+core debug: using packetizer module "packetizer_h264"
+core debug: looking for decoder module matching "any": 43 candidates
+g711 debug: samplerate:8000Hz channels:1
+core debug: using decoder module "g711"
+core debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\CIIS\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\vlc-2.2.1\lua\meta\reader
+lua debug: Trying Lua playlist script D:\vlc-2.2.1\lua\meta\reader\filename.luac
+core debug: no meta reader modules matched
+core debug: `rtsp://192.168.1.9:554/medias1' successfully opened
+core debug: corereusing  debug: Bufferinga udio ou0t%put
+
+directsoundcore debug:  debug: Buffering O0pe%ning Dir
+ectSound Audio Output
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 5%
+core debug: Buffering 13%
+core debug: Buffering 20%
+avcodec debug: available hardware decoder output format 61 (dxva2_vld)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+core debug: looking for hw decoder module matching "none": 1 candidates
+core debug: no hw decoder modules matched
+core debug: looking for text renderer module matching "any": 2 candidates
+core debug: Buffering 25%
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: Using Courier New as mono-fondtire from cftsoundi debug: lWe C:\Windindowsows\Fo nts\cousr.ttf
+peaker config: Stereo and stream has 1 channels, using 1 channels
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+core debug: looking for video filter2 module matching "any": 58 candidates
+core debug: output 'f32l' 8000 Hz Stereo frame=1 samples/8 bytes
+core debug: looking for audio volume module matching "any": 2 candidates
+core debug: using audio volume module "float_mixer"
+core debug: input 's16l' 8000 Hz Mono frame=1 samples/2 bytes
+core debug: looking for audio filter module matching "scaletempo": 14 candidates
+scaletempo debug: format:  8000 rate, 1 nch, 4 bps, fl32
+scaletempo debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo debug: 1.000 scale, 240.000 stride_in, 240 stride_out, 192 standing, 48 overlap, 112 search, 400 queue, fl32 mode
+core debug: using audio filter module "scaletempo"
+core debug: conversion: 's16l'->'f32l' 8000 Hz->8000 Hz Mono->Mono
+core debug: looking for audio converter module matching "any": 12 candidates
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: looking for video filter2 module matching "any": 58 candidates
+core debug: Buffering 32%
+audio_format debug: s16l->f32l, bits per sample: 16->32
+core debug: using audio converter module "audio_format"
+core debug: conversion pipeline complete
+core debug: conversion: 'f32l'->'f32l' 8000 Hz->8000 Hz Mono->Stereo
+core debug: looking for audio converter module matching "any": 12 candidates
+core debug: using audio converter module "trivial_channel_mixer"
+core debug: conversion pipeline complete
+core debug: looking for audio resampler module matching "any": 3 candidates
+core debug: using audio resampler module "samplerate"
+core debug: End of audio preroll
+core debug: Buffering 39%
+yuvp debug: YUVP to YUVA converter
+core debug: using video filter2 module "yuvp"
+core debug: Deinterlacing available
+core debug: deinterlace 0, mode blend, is_needed 0
+core debug: Opening vout display wrapper
+core debug: looking for vout display module matching "vmem": 11 candidates
+core debug: VoutDisplayEvent 'fullscreen' 0
+core debug: VoutDisplayEvent 'resize' 1600x1200 window
+core debug: using vout display module "vmem"
+core debug: A filter to adapt decoder to display is needed
+core debug: looking for video filter2 module matching "any": 58 candidates
+swscale debug: 1600x1200 (1600x1218) chroma: J420 -> 1600x1200 (1600x1200) chroma: RV24 with scaling using Bicubic (good quality)
+core debug: using video filter2 module "swscale"
+core debug: Filter 'Swscale' (1dc0ab54) appended to chain
+core debug: original format sz 1600x1218, of (0,0), vsz 1600x1200, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+core error: Failed to change core debzoomu
+g: removing module "cfreetype"
+ore error: Failed to set on top
+core debug: looking for coretext renderer module matching " error: aFnyai": le2 d tcao change source AR
+ndidates
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: Using Courier New as mono-font from file C:\Windows\Fonts\cour.ttf
+freetype debug: using fontsize: 2
+core debug: using text renderer module "freetype"
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+core debug: End of video preroll
+core debug: Received first picture
+core debug: Buffering 47%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 54%
+core debug: Buffering 58%
+core debug: Buffering 66%
+core debug: Buffering 73%
+core debug: Buffering 80%
+core debug: Buffering 88%
+core debug: Buffering 92%
+live555 debug: tk->rtpSource->hasBeenSynchronizedUsingRTCP()
+core error: ES_OUT_RESET_PCR called
+core warning: early picture skipped
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: End of audio preroll
+core debug: Buffering 0%
+core debug: Buffering 0%
+core warning: clock gap, unexpected stream discontinuity
+core warning: feeding synchro with a new reference point trying to recover from clock gap
+core debug: Buffering 0%
+core debug: Buffering 6%
+core debug: Buffering 14%
+avcodec debug: available hardware decoder output format 61 (dxva2_vld)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+core debug: looking for hw decoder module matching "none": 1 candidates
+core debug: no hw decoder modules matched
+core debug: Buffering 21%
+core debug: Buffering 25%
+core debug: Buffering 33%
+core debug: Buffering 40%
+core debug: End of video preroll
+core debug: Received first picture
+core debug: Buffering 47%
+core debug: Buffering 47%
+core debug: Buffering 47%
+core debug: Buffering 47%
+core debug: Buffering 55%
+core debug: Buffering 62%
+core debug: Buffering 66%
+core debug: Buffering 73%
+core debug: Buffering 81%
+core debug: Buffering 86%
+core debug: Buffering 94%
+core debug: Buffering 94%
+core debug: Buffering 94%
+core debug: Buffering 94%
+core debug: Stream buffering done (1016 ms in 1010 ms)
+core debug: Decoder wait done in 0 ms
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: picture might be displayed late (missing 10 ms)
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+core debug: discarded audio buffer
+live555 debug: tk->rtpSource->hasBeenSynchronizedUsingRTCP()
+core error: ES_OUT_RESET_PCR called
+core warning: early picture skipped
+ccoorree  ddeebbuugg::  BEunfdf eorfi nagu d0i%o
+ preroll
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 0%
+core debug: Buffering 1%
+core debug: Buffering 8%
+avcodec debug: available hardware decoder output format 61 (dxva2_vld)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+core debug: looking for hw decoder module matching "none": 1 candidates
+core debug: no hw decoder modules matched
+core debug: Buffering 15%
+core debug: Buffering 23%
+core debug: Buffering 32%
+core debug: Buffering 35%
+core debug: End of video preroll
+core debug: Received first picture
+core debug: Buffering 43%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 51%
+core debug: Buffering 56%
+core debug: Buffering 64%
+core debug: Buffering 68%
+core debug: Buffering 75%
+core debug: Buffering 83%
+core debug: Buffering 91%
+core debug: Buffering 95%
+core debug: Stream buffering done (1023 ms in 1028 ms)
+core debug: Decoder wait done in 0 ms
+core warning: playback too late (83464): up-sampling
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: playback way too early (-125371): playing silence
+core debug: inserting 1002 zeroes
+core warning: playback too late (98330): up-sampling
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core warning: playback too early (-40804): down-sampling
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: resampling stopped (drift: -45964 us)
+core warning: playback too early (-47021): down-sampling
+core warning: picture is too late to be displayed (missing 61 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: resampling stopped (drift: -1437 us)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 45 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: playback way too late (181515): flushing buffers
+core warning: playback way too early (-1029434): playing silence
+core debug: inserting 8235 zeroes
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: playback way too early (-123886): playing silence
+core debug: inserting 991 zeroes
+core debug: picture might be displayed late (missing 16 ms)
+core warning: playback way too early (-369158): playing silence
+core debug: inserting 2953 zeroes
+core warning: playback way too early (-507408): playing silence
+core debug: inserting 4059 zeroes
+core warning: picture is too late to be displayed (missing 41 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 56 ms)
+core warning: playback way too early (-510960): playing silence
+core debug: inserting 4087 zeroes
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 48 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 46 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core warning: picture is too late to be displayed (missing 39 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 46 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: playback way too early (-491318): playing silence
+core debug: inserting 3930 zeroes
+core warning: picture is too late to be displayed (missing 41 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 43 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 46 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 56 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: playback way too early (-178956): playing silence
+core debug: inserting 1431 zeroes
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 42 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core warning: picture is too late to be displayed (missing 40 ms)
+core warning: picture is too late to be displayed (missing 35 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: playback way too early (-149595): playing silence
+core debug: inserting 1196 zeroes
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: playback way too early (-504367): playing silence
+core debug: inserting 4034 zeroes
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 40 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core warning: picture is too late to be displayed (missing 38 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: playback way too early (-499326): playing silence
+core debug: inserting 3994 zeroes
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 48 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core warning: playback way too early (-179051): playing silence
+core debug: inserting 1432 zeroes
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 47 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 39 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: playback way too early (-161464): playing silence
+core debug: inserting 1291 zeroes
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 43 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core warning: picture is too late to be displayed (missing 59 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: playback way too early (-138188): playing silence
+core debug: inserting 1105 zeroes
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 143 ms)
+core warning: picture is too late to be displayed (missing 78 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 77 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 39 ms)
+core warning: picture is too late to be displayed (missing 66 ms)
+core warning: picture is too late to be displayed (missing 48 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 151 ms)
+core warning: picture is too late to be displayed (missing 81 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 47 ms)
+core warning: picture is too late to be displayed (missing 38 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core warning: picture is too late to be displayed (missing 45 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core warning: picture is too late to be displayed (missing 50 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 35 ms)
+core warning: playback way too early (-167087): playing silence
+core debug: inserting 1336 zeroes
+core warning: picture is too late to be displayed (missing 61 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: playback way too early (-321972): playing silence
+core debug: inserting 2575 zeroes
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: playback way too early (-513271): playing silence
+core debug: inserting 4106 zeroes
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 67 ms)
+core warning: playback way too early (-167709): playing silence
+core debug: inserting 1341 zeroes
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 63 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core warning: picture is too late to be displayed (missing 64 ms)
+core warning: picture is too late to be displayed (missing 53 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: playback way too early (-132927): playing silence
+core debug: inserting 1063 zeroes
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: playback too early (-46642): down-sampling
+core debug: resampling stopped (drift: -16109 us)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 90 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: playback way too early (-519514): playing silence
+core debug: inserting 4156 zeroes
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: playback way too early (-145344): playing silence
+core debug: inserting 1162 zeroes
+core warning: picture is too late to be displayed (missing 153 ms)
+core warning: picture is too late to be displayed (missing 85 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 136 ms)
+core warning: picture is too late to be displayed (missing 69 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: playback way too early (-371612): playing silence
+core debug: inserting 2972 zeroes
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 66 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: playback way too early (-504567): playing silence
+core debug: inserting 4036 zeroes
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 91 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 65 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: playback way too early (-507808): playing silence
+core debug: inserting 4062 zeroes
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: playback way too early (-512297): playing silence
+core debug: inserting 4098 zeroes
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 53 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: picture is too late to be displayed (missing 59 ms)
+core warning: picture is too late to be displayed (missing 132 ms)
+core warning: picture is too late to be displayed (missing 65 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: playback way too early (-177602): playing silence
+core debug: inserting 1420 zeroes
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 153 ms)
+core warning: picture is too late to be displayed (missing 86 ms)
+core warning: picture is too late to be displayed (missing 43 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 51 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: picture is too late to be displayed (missing 128 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 40 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 56 ms)
+core warning: picture is too late to be displayed (missing 75 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 50 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 53 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: playback way too early (-128925): playing silence
+core debug: inserting 1031 zeroes
+core debug: picture might be displayed late (missing 17 ms)
+core warning: playback way too early (-336185): playing silence
+core debug: inserting 2689 zeroes
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: playback way too early (-513132): playing silence
+core debug: inserting 4105 zeroes
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: playback way too early (-324288): playing silence
+core debug: inserting 2594 zeroes
+core warning: playback way too early (-327529): playing silence
+core debug: inserting 2620 zeroes
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 38 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 59 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 63 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: playback way too early (-502561): playing silence
+core debug: inserting 4020 zeroes
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: playback way too early (-157462): playing silence
+core debug: inserting 1259 zeroes
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 45 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 87 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 216 ms)
+core warning: picture is too late to be displayed (missing 146 ms)
+core warning: picture is too late to be displayed (missing 86 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core warning: picture is too late to be displayed (missing 51 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 210 ms)
+core warning: picture is too late to be displayed (missing 145 ms)
+core warning: picture is too late to be displayed (missing 75 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core warning: picture is too late to be displayed (missing 87 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 132 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 105 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 63 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: playback way too early (-508060): playing silence
+core debug: inserting 4064 zeroes
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: playback way too early (-177787): playing silence
+core debug: inserting 1422 zeroes
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: playback way too early (-323818): playing silence
+core debug: inserting 2590 zeroes
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 150 ms)
+core warning: picture is too late to be displayed (missing 81 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: playback way too early (-498212): playing silence
+core debug: inserting 3985 zeroes
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 149 ms)
+core warning: picture is too late to be displayed (missing 79 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core warning: picture is too late to be displayed (missing 76 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: playback way too early (-524019): playing silence
+core debug: inserting 4192 zeroes
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 53 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 35 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 120 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core warning: picture is too late to be displayed (missing 134 ms)
+core warning: picture is too late to be displayed (missing 64 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 128 ms)
+core warning: picture is too late to be displayed (missing 63 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 66 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 57 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core warning: picture is too late to be displayed (missing 47 ms)
+core warning: picture is too late to be displayed (missing 145 ms)
+core warning: picture is too late to be displayed (missing 98 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: playback way too early (-146377): playing silence
+core debug: inserting 1171 zeroes
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: playback too early (-46892): down-sampling
+core debug: picture might be displayed late (missing 7 ms)
+core debug: resampling stopped (drift: -2784 us)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: playback way too early (-339471): playing silence
+core debug: inserting 2715 zeroes
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 64 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 37 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 40 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 57 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: playback way too early (-499535): playing silence
+core debug: inserting 3996 zeroes
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 75 ms)
+core warning: picture is too late to be displayed (missing 45 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 42 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 56 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 50 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 153 ms)
+core warning: picture is too late to be displayed (missing 85 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 113 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 64 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 121 ms)
+core warning: picture is too late to be displayed (missing 50 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core warning: picture is too late to be displayed (missing 220 ms)
+core warning: picture is too late to be displayed (missing 151 ms)
+core warning: picture is too late to be displayed (missing 91 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 72 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 219 ms)
+core warning: picture is too late to be displayed (missing 153 ms)
+core warning: picture is too late to be displayed (missing 84 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 42 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 68 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 77 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 114 ms)
+core warning: picture is too late to be displayed (missing 43 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core warning: picture is too late to be displayed (missing 95 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 65 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: playback way too early (-492817): playing silence
+core debug: inserting 3942 zeroes
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 57 ms)
+core warning: playback way too late (207130): flushing buffers
+core warning: playback way too early (-1027000): playing silence
+core debug: inserting 8216 zeroes
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 89 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: playback way too early (-125226): playing silence
+core debug: inserting 1001 zeroes
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: playback way too early (-362013): playing silence
+core debug: inserting 2896 zeroes
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 37 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 50 ms)
+core warning: picture is too late to be displayed (missing 122 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 57 ms)
+core warning: picture is too late to be displayed (missing 32 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: playback way too early (-312746): playing silence
+core debug: inserting 2501 zeroes
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: playback too early (-45952): down-sampling
+core debug: resampling stopped (drift: 1689 us)
+core warning: playback way too early (-347734): playing silence
+core debug: inserting 2781 zeroes
+core warning: picture is too late to be displayed (missing 58 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 35 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 35 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 38 ms)
+core warning: playback way too early (-173249): playing silence
+core debug: inserting 1385 zeroes
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 216 ms)
+core warning: picture is too late to be displayed (missing 151 ms)
+core warning: picture is too late to be displayed (missing 81 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core warning: picture is too late to be displayed (missing 84 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: playback way too early (-138276): playing silence
+core debug: inserting 1106 zeroes
+core warning: playback too early (-41060): down-sampling
+core debug: resampling stopped (drift: -4433 us)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: playback way too early (-351734): playing silence
+core debug: inserting 2813 zeroes
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 40 ms)
+core warning: playback way too early (-509652): playing silence
+core debug: inserting 4077 zeroes
+core warning: playback way too early (-512426): playing silence
+core debug: inserting 4099 zeroes
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 59 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 47 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 49 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: playback way too early (-507793): playing silence
+core debug: inserting 4062 zeroes
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 147 ms)
+core warning: picture is too late to be displayed (missing 75 ms)
+core warning: picture is too late to be displayed (missing 44 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core warning: picture is too late to be displayed (missing 74 ms)
+core debug: picture might be displayed late (missing 3 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 210 ms)
+core warning: picture is too late to be displayed (missing 138 ms)
+core warning: picture is too late to be displayed (missing 67 ms)
+core warning: picture is too late to be displayed (missing 41 ms)
+core warning: playback way too early (-512125): playing silence
+core debug: inserting 4097 zeroes
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 61 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 37 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 42 ms)
+core warning: picture is too late to be displayed (missing 65 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 30 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 146 ms)
+core warning: picture is too late to be displayed (missing 107 ms)
+core warning: picture is too late to be displayed (missing 48 ms)
+core warning: picture is too late to be displayed (missing 80 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 56 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 213 ms)
+core warning: picture is too late to be displayed (missing 136 ms)
+core warning: picture is too late to be displayed (missing 66 ms)
+core debug: picture might be displayed late (missing 0 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 1 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core warning: playback way too early (-347701): playing silence
+core debug: inserting 2781 zeroes
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 42 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 48 ms)
+core warning: picture is too late to be displayed (missing 149 ms)
+core warning: picture is too late to be displayed (missing 81 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core warning: picture is too late to be displayed (missing 66 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core warning: picture is too late to be displayed (missing 74 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 47 ms)
+core warning: picture is too late to be displayed (missing 42 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 64 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: playback way too early (-132619): playing silence
+core debug: inserting 1060 zeroes
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 57 ms)
+core warning: picture is too late to be displayed (missing 124 ms)
+core warning: picture is too late to be displayed (missing 54 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 152 ms)
+core warning: picture is too late to be displayed (missing 83 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 2 ms)
+core warning: picture is too late to be displayed (missing 33 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 53 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 31 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 4 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 188 ms)
+core warning: picture is too late to be displayed (missing 52 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 45 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 13 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 62 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 56 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 43 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 7 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 6 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 38 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 25 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 18 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core warning: picture is too late to be displayed (missing 36 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 60 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 58 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 100 ms)
+core warning: picture is too late to be displayed (missing 34 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 5 ms)
+core warning: picture is too late to be displayed (missing 26 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 53 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 74 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core warning: picture is too late to be displayed (missing 29 ms)
+core debug: picture might be displayed late (missing 19 ms)
+core warning: picture is too late to be displayed (missing 21 ms)
+core warning: picture is too late to be displayed (missing 47 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core warning: picture is too late to be displayed (missing 28 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core debug: picture might be displayed late (missing 16 ms)
+core warning: picture is too late to be displayed (missing 22 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core warning: picture is too late to be displayed (missing 50 ms)
+core warning: picture is too late to be displayed (missing 27 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core warning: picture is too late to be displayed (missing 20 ms)
+core debug: picture might be displayed late (missing 17 ms)
+core warning: picture is too late to be displayed (missing 64 ms)
+core debug: picture might be displayed late (missing 8 ms)
+core debug: picture might be displayed late (missing 9 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core warning: picture is too late to be displayed (missing 82 ms)
+core debug: picture might be displayed late (missing 14 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core warning: picture is too late to be displayed (missing 24 ms)
+core debug: picture might be displayed late (missing 12 ms)
+core debug: picture might be displayed late (missing 15 ms)
+core debug: picture might be displayed late (missing 11 ms)
+core warning: picture is too late to be displayed (missing 23 ms)
+core debug: picture might be displayed late (missing 10 ms)
+core debug: picture might be displayed late (missing 14 ms)
