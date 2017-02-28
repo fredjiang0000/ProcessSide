@@ -83,18 +83,19 @@ INCLUDEPATH += /usr/include/c++/{gcc_version}/
 LIBS += -lWs2_32 #For Win Socket
 
 ################ Include OpenCV headers and Library ###################
-INCLUDEPATH += C:\opencv2.4.9\install\include
-LIBS += -LC:\opencv2.4.9\lib
-LIBS +=   -lopencv_core249  -lopencv_calib3d249 -lopencv_contrib249  \
-          -lopencv_highgui249 -lopencv_features2d249 -lopencv_gpu249 \
-          -lopencv_imgproc249 -lopencv_objdetect249 -lopencv_ocl249 \
-          -lopencv_video249
-LIBS +=   C:\opencv2.4.9\openCV\bin\opencv_ffmpeg249.dll
+INCLUDEPATH += D:\opencvqt2.4.9\install\include
+INCLUDEPATH += D:\opencvqt2.4.9\install\include\opencv
+INCLUDEPATH += D:\opencvqt2.4.9\install\include\opencv2
+LIBS += -LD:\opencvqt2.4.9\install\x64\vc12\lib
+LIBS +=   -lopencv_core249_d  -lopencv_calib3d249_d -lopencv_contrib249_d  \
+          -lopencv_highgui249_d -lopencv_features2d249_d -lopencv_gpu249_d \
+          -lopencv_imgproc249_d -lopencv_objdetect249_d -lopencv_ocl249_d \
+          -lopencv_video249_d
 #######################################################################
 
 ################ Include VLC headers and Library ######################
-INCLUDEPATH += C:\vlc-2.2.1\sdk\include
-LIBS += -LC:\vlc-2.2.1\sdk\lib
+INCLUDEPATH += D:\vlc-2.2.1\sdk\include
+LIBS += -LD:\vlc-2.2.1\sdk\lib
 LIBS += -lvlccore -llibvlc
 #######################################################################
 
