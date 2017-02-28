@@ -13,19 +13,19 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 //Local
-#include <imgprocess.h>
-#include <mainwindow.h>
-#include <ConcurrentQueue.h>
+#include "imgprocess.h"
+#include "mainwindow.h"
+#include "ConcurrentQueue.h"
 #include "TruckRecognize.h"//公司車判斷
 #include "cellphone_detection.h"//手機行為判斷
 //Win Socket
-#ifdef __WIN32__
-# include <winsock2.h>
-#else
-# include <sys/socket.h>
-#endif
+//#ifdef __WIN32__
+//# include <winsock2.h>
+//#else
+//# include <sys/socket.h>
+//#endif
 //C&C++
-#include <unistd.h>
+#include "unistd.h"
 #include <iostream>
 using namespace cv;
 using namespace std;

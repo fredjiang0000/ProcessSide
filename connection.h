@@ -12,10 +12,10 @@
 #include <QWidget>
 
 //Local
-#include <mainwindow.h>
-#include <ProcessThread.h>
-#include <CaptureThread.h>
-#include <VlcThread.h>
+#include "mainwindow.h"
+#include "ProcessThread.h"
+#include "CaptureThread.h"
+#include "VlcThread.h"
 #include "outputLog.h"
 
 //C++

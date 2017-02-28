@@ -7,6 +7,7 @@
              功能包括使用手機辨識和指定區域物體移動的判斷，
              發生異常可以傳送警報和Log訊息給顯示端
 */
+#include <winsock2.h>
 #include "mainwindow.h"
 #include <QApplication>
 #include "ImgProcess.h"
