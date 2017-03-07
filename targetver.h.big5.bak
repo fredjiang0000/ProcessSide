@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 // 加上 SDKDDKVer.h 可定義最高可用的 Windows 平台。
 

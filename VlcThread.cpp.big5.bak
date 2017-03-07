@@ -1,4 +1,4 @@
-#include "VlcThread.h"
+﻿#include "VlcThread.h"
 #include <QtDebug>
 #include <QMutex>
 #include <QWaitCondition>

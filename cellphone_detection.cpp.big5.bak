@@ -1,4 +1,4 @@
-#include "QDebug"
+﻿#include "QDebug"
 #include "cellphone_detection.h"
 #include "header.h"
 #include "check_thread.h"

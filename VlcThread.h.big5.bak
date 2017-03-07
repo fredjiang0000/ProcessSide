@@ -16,7 +16,7 @@
 #include <iostream>
 //Local
 #include "ConcurrentQueue.h"
-#include <mainwindow.h>
+#include "mainwindow.h"
 
 using namespace std;
 using namespace cv;

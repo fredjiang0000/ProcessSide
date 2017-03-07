@@ -160,7 +160,7 @@ void connection::on_pushButton_ok_clicked()
     {
         if(process_thread->Connect_to_Server(process_thread->server_ip,process_thread->server_port))
             break;
-        sleep(1);
+        Sleep(1000);
     }
     vlc_thread->start(QThread::NormalPriority);//VLC Thread Start
     process_thread->start(QThread::HighPriority);//Processing Thread Start
@@ -323,7 +323,7 @@ bool connection::Reconnection()
     {
         if(process_thread->Connect_to_Server(process_thread->server_ip,process_thread->server_port))
             break;
-        sleep(1);
+        Sleep(1000);
     }
     myLog->printLog(logAddMem("connection::Reconnection() enter6"));
     //Start the Threads

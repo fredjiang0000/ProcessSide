@@ -1,4 +1,4 @@
-#include "CaptureThread.h"
+﻿#include "CaptureThread.h"
 #include "ImgProcess.h"
 #include <QtDebug>
 #include <ctime>

@@ -1,4 +1,4 @@
-#ifndef ProcessThread_H
+﻿#ifndef ProcessThread_H
 #define ProcessThread_H
 
 //Qt

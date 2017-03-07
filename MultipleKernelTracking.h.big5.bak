@@ -1,4 +1,4 @@
-//+-----------------------------------------------------------------------
+ï»¿//+-----------------------------------------------------------------------
 //
 //  Copyright (c) 2013 Chun-Te Chu <ctchu@u.washington.edu>.  All rights reserved.
 //
@@ -6,8 +6,8 @@
 //      Implementation of Multiple-Kernel Tracking
 //
 //	For more details, please refer to :
-//	Chun-Te Chu, Jenq-Neng Hwang, Hung-I Pai and Kung-Ming Lan ¡§ Tracking Human Under Occlusion Based On Adaptive
-//	Multiple Kernels With Projected Gradients,¡¨ IEEE Trans. on Multimedia,15(7):1602-1615, November 2013.
+//	Chun-Te Chu, Jenq-Neng Hwang, Hung-I Pai and Kung-Ming Lan ï¿½ï¿½ Tracking Human Under Occlusion Based On Adaptive
+//	Multiple Kernels With Projected Gradients,ï¿½ï¿½ IEEE Trans. on Multimedia,15(7):1602-1615, November 2013.
 //
 //------------------------------------------------------------------------
 

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "header.h"
 #include "outputLog.h"
 using namespace std;

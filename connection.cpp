@@ -1,4 +1,4 @@
-#include "connection.h"
+﻿#include "connection.h"
 #include "ui_connection.h"
 #include <iostream>
 #include <QMessageBox>

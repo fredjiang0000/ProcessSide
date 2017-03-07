@@ -1,4 +1,4 @@
-#ifndef ENLARGE_H
+﻿#ifndef ENLARGE_H
 #define ENLARGE_H
 
 #include <QWidget>

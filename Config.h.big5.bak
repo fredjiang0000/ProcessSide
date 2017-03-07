@@ -1,4 +1,4 @@
-/*
+﻿/*
 For more information, please refer to:
 
 Chun-Te Chu <ctchu@u.washington.edu>

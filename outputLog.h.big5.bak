@@ -1,4 +1,4 @@
-#ifndef OUTPUTLOG_H
+﻿#ifndef OUTPUTLOG_H
 #define OUTPUTLOG_H
 
 #include <ctime>

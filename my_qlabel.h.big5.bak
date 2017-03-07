@@ -1,4 +1,4 @@
-#ifndef MY_QLABEL_H
+﻿#ifndef MY_QLABEL_H
 #define MY_QLABEL_H
 
 #include <QWidget>

@@ -1,4 +1,4 @@
-#include "enlarge.h"
+﻿#include "enlarge.h"
 #include "ui_enlarge.h"
 
 //建構子

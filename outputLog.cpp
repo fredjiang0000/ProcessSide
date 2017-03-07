@@ -1,4 +1,4 @@
-#include "outputLog.h"
+﻿#include "outputLog.h"
 #include <string>
 
 outputLog::outputLog(const string filename)

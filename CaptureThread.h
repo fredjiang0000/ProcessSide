@@ -1,4 +1,4 @@
-#ifndef CAPTURETHREAD_H
+﻿#ifndef CAPTURETHREAD_H
 #define CAPTURETHREAD_H
 
 #define MAX_BUFFER_SIZE 80

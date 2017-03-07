@@ -1,4 +1,4 @@
-#ifndef CONCURRENTQUEUE
+﻿#ifndef CONCURRENTQUEUE
 #define CONCURRENTQUEUE
 
 #include <QMutex>

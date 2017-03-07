@@ -1,4 +1,4 @@
-#ifndef VlcThread_H
+﻿#ifndef VlcThread_H
 #define VlcThread_H
 
 //Windows

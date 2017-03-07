@@ -1,4 +1,4 @@
-#ifndef WIDGET
+﻿#ifndef WIDGET
 #define WIDGET
 
 #include <QLabel>
