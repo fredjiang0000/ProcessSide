@@ -1,4 +1,4 @@
-/*******************************************
+﻿/*******************************************
 Function name : parameters
 = Function Features
 + Function Practice

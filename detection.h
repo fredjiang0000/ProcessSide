@@ -1,4 +1,4 @@
-#ifndef DETECTION_H
+﻿#ifndef DETECTION_H
 #define DETECTION_H
 
 #define NUM_FRAME_PROCESS 3    //define how many frames to take one frame

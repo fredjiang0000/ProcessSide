@@ -1,4 +1,4 @@
-#include "smtp.h"
+﻿#include "smtp.h"
 #include <ctime>
 #include <QProcess>
 #include <iostream>

@@ -1,4 +1,4 @@
-#include "check_thread.h"
+﻿#include "check_thread.h"
 #include "warningmessage.h"
 
 int e_num=0;

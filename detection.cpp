@@ -1,4 +1,4 @@
-#include "detection.h"
+﻿#include "detection.h"
 
 #include <qdebug.h>
 

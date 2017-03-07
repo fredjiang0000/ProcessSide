@@ -1,4 +1,4 @@
-#include "ProcessThread.h"
+﻿#include "ProcessThread.h"
 #include "ImgProcess.h"
 #include <QtCore>
 #include <QtDebug>

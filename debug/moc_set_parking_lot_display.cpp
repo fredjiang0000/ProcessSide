@@ -1,4 +1,4 @@
-/****************************************************************************
+﻿/****************************************************************************
 ** Meta object code from reading C++ file 'set_parking_lot_display.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.4.0)

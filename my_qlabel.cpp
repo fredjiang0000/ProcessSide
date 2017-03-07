@@ -1,4 +1,4 @@
-#include "my_qlabel.h"
+﻿#include "my_qlabel.h"
 #include <QtDebug>
 
 //建構子

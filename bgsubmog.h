@@ -1,4 +1,4 @@
-#ifndef BGSUBMOG_H
+﻿#ifndef BGSUBMOG_H
 #define BGSUBMOG_H
 
 

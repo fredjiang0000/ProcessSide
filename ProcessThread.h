@@ -24,6 +24,7 @@
 //#else
 //# include <sys/socket.h>
 //#endif
+#include "winsock2.h"
 //C&C++
 #include "unistd.h"
 #include <iostream>
@@ -107,9 +108,9 @@ private:
     //剛連上顯示端時,送給顯示端監視器的資訊
     bool Send_Camera_Info();
     //檢查接收資料是否Timeout,是的話顯示錯誤訊息並等待重新連線
-    bool Recv_and_Check_Timeout(SOCKET connection,char* buf,int buf_len);
+    bool Recv_and_Check_Timeout(unsigned int connection,char* buf,int buf_len);
     //檢查傳送資料是否Timeout,是的話顯示錯誤訊息並等待重新連線
-    bool Send_and_Check_Timeout(SOCKET connection,char* buf,int buf_len);
+    bool Send_and_Check_Timeout(unsigned int connection,char* buf,int buf_len);
     //原始和固定後解析度比例
     double width_ratio,height_ratio;
     //是否固定解析度(超過800x600就固定為800x600)
@@ -157,8 +158,8 @@ private:
     //Get Current Time
     string get_current_time();
     //Win Socket for sending the frame to the Server
-    SOCKADDR_IN serverAddr;
-    SOCKET      clientSock;
+    sockaddr_in serverAddr;
+    unsigned int      clientSock;
     int serverAddrLen;
     //Check ip alive
     QTcpSocket QSocket;

@@ -1,4 +1,4 @@
-#ifndef CONNECTION_H
+﻿#ifndef CONNECTION_H
 #define CONNECTION_H
 
 #ifdef Q_OS_WIN

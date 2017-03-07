@@ -1,4 +1,4 @@
-#ifndef WARNINGMESSAGE
+﻿#ifndef WARNINGMESSAGE
 #define WARNINGMESSAGE
 using namespace std;
 class warningmessage{

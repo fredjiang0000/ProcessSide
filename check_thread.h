@@ -1,4 +1,4 @@
-#ifndef CHECK_THREAD
+﻿#ifndef CHECK_THREAD
 #define CHECK_THREAD
 #include "opencv/cv.h"
 #include "opencv/highgui.h"

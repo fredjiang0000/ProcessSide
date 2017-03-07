@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (c) 2013 Raivis Strogonovs
 
 http://morf.lv

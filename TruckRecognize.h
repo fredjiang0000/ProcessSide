@@ -1,4 +1,4 @@
-#ifndef __carRecognize_h_included__
+﻿#ifndef __carRecognize_h_included__
 #define __carRecognize_h_included__
 
 #include <opencv2\core\core.hpp>

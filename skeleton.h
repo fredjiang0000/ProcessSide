@@ -1,4 +1,4 @@
-#ifndef SKELETON_H
+﻿#ifndef SKELETON_H
 #define SKELETON_H
 #include "opencv/cv.h"
 #include "opencv/highgui.h"

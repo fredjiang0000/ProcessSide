@@ -14,9 +14,9 @@
 
 //Local
 #include "ConcurrentQueue.h"
-#include <mainwindow.h>
-#include <ProcessThread.h>
-#include <VlcThread.h>
+#include "mainwindow.h"
+#include "ProcessThread.h"
+#include "VlcThread.h"
 #include "outputLog.h"
 //C++
 #include <iomanip>

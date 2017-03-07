@@ -1,4 +1,4 @@
-#ifndef OBJTRACK_H
+﻿#ifndef OBJTRACK_H
 #define OBJTRACK_H
 
 #include "bgsubmog.h"

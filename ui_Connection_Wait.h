@@ -1,4 +1,4 @@
-/********************************************************************************
+﻿/********************************************************************************
 ** Form generated from reading UI file 'Connection_Wait.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.4.0
